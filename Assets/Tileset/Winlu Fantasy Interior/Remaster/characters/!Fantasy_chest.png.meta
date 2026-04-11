@@ -1,0 +1,1495 @@
+fileFormatVersion: 2
+guid: c158c97dff87543819e303959c80157e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5772380238785565400
+    second: '!Fantasy_chest_0'
+  - first:
+      213: 6595116209640013961
+    second: '!Fantasy_chest_1'
+  - first:
+      213: -4853313622590287325
+    second: '!Fantasy_chest_2'
+  - first:
+      213: 8295256077503247742
+    second: '!Fantasy_chest_3'
+  - first:
+      213: -4098059277428420858
+    second: '!Fantasy_chest_4'
+  - first:
+      213: 7306229857013984374
+    second: '!Fantasy_chest_5'
+  - first:
+      213: -4589860269284037976
+    second: '!Fantasy_chest_6'
+  - first:
+      213: -6165973893095988086
+    second: '!Fantasy_chest_7'
+  - first:
+      213: -3728461631005821824
+    second: '!Fantasy_chest_8'
+  - first:
+      213: -970880817553771556
+    second: '!Fantasy_chest_9'
+  - first:
+      213: -4006130815583682409
+    second: '!Fantasy_chest_10'
+  - first:
+      213: -8581907477582537665
+    second: '!Fantasy_chest_11'
+  - first:
+      213: 2099894590180013820
+    second: '!Fantasy_chest_12'
+  - first:
+      213: -1293812095235163389
+    second: '!Fantasy_chest_13'
+  - first:
+      213: -3758928998420627487
+    second: '!Fantasy_chest_14'
+  - first:
+      213: 1238920929251568872
+    second: '!Fantasy_chest_15'
+  - first:
+      213: 3518960292269179010
+    second: '!Fantasy_chest_16'
+  - first:
+      213: 1256788062354455683
+    second: '!Fantasy_chest_17'
+  - first:
+      213: 7482514804202148393
+    second: '!Fantasy_chest_18'
+  - first:
+      213: 2566472295924130224
+    second: '!Fantasy_chest_19'
+  - first:
+      213: -3926753166588302372
+    second: '!Fantasy_chest_20'
+  - first:
+      213: 5217718385223565348
+    second: '!Fantasy_chest_21'
+  - first:
+      213: -2019770272380325610
+    second: '!Fantasy_chest_22'
+  - first:
+      213: -9137771087412375090
+    second: '!Fantasy_chest_23'
+  - first:
+      213: -6339283735256267440
+    second: '!Fantasy_chest_24'
+  - first:
+      213: -2138885117670587915
+    second: '!Fantasy_chest_25'
+  - first:
+      213: 5014543927049324652
+    second: '!Fantasy_chest_26'
+  - first:
+      213: -5044655942586384650
+    second: '!Fantasy_chest_27'
+  - first:
+      213: 4959797451817700111
+    second: '!Fantasy_chest_28'
+  - first:
+      213: 6142007148066788604
+    second: '!Fantasy_chest_29'
+  - first:
+      213: -768245256830383590
+    second: '!Fantasy_chest_30'
+  - first:
+      213: 3154100721704784707
+    second: '!Fantasy_chest_31'
+  - first:
+      213: -949623154510985486
+    second: '!Fantasy_chest_32'
+  - first:
+      213: -7319617134639940010
+    second: '!Fantasy_chest_33'
+  - first:
+      213: -6552180383967277287
+    second: '!Fantasy_chest_34'
+  - first:
+      213: 4298292428857885100
+    second: '!Fantasy_chest_35'
+  - first:
+      213: -7639781209052219859
+    second: '!Fantasy_chest_36'
+  - first:
+      213: 2454713614647081320
+    second: '!Fantasy_chest_37'
+  - first:
+      213: -3982949840693580601
+    second: '!Fantasy_chest_38'
+  - first:
+      213: -1996761853500551256
+    second: '!Fantasy_chest_39'
+  - first:
+      213: -5728460019647792091
+    second: '!Fantasy_chest_40'
+  - first:
+      213: -6929284589321799189
+    second: '!Fantasy_chest_41'
+  - first:
+      213: 8072250779430363384
+    second: '!Fantasy_chest_42'
+  - first:
+      213: 6382371339693498719
+    second: '!Fantasy_chest_43'
+  - first:
+      213: -7053498570502833810
+    second: '!Fantasy_chest_44'
+  - first:
+      213: 6208801724530768589
+    second: '!Fantasy_chest_45'
+  - first:
+      213: -6252559259653983917
+    second: '!Fantasy_chest_46'
+  - first:
+      213: 8581122114409690686
+    second: '!Fantasy_chest_47'
+  - first:
+      213: -7944590198863026083
+    second: '!Fantasy_chest_48'
+  - first:
+      213: -7712771401170856277
+    second: '!Fantasy_chest_49'
+  - first:
+      213: 451086384391095597
+    second: '!Fantasy_chest_50'
+  - first:
+      213: -8155372819271235936
+    second: '!Fantasy_chest_51'
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: '!Fantasy_chest_0'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 696
+        width: 289
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82da3b691c264efa0800000000000000
+      internalID: -5772380238785565400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_1'
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 694
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9808300104f868b50800000000000000
+      internalID: 6595116209640013961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_2'
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 694
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32211f569f095acb0800000000000000
+      internalID: -4853313622590287325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_3'
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 694
+        width: 184
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e753b7cc37bae1370800000000000000
+      internalID: 8295256077503247742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_4'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 289
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f8264bcc4c027c0800000000000000
+      internalID: -4098059277428420858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_5'
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 598
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cebaa4851f46560800000000000000
+      internalID: 7306229857013984374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_6'
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 598
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa65a8376a8d40c0800000000000000
+      internalID: -4589860269284037976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_7'
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 598
+        width: 184
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a846ea7b96f0e6aa0800000000000000
+      internalID: -6165973893095988086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_8'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 289
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084793d96e7d14cc0800000000000000
+      internalID: -3728461631005821824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_9'
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 502
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd377765a0db682f0800000000000000
+      internalID: -970880817553771556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_10'
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 502
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7908365af3d5768c0800000000000000
+      internalID: -4006130815583682409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_11'
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 502
+        width: 184
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c9c673e90f6e880800000000000000
+      internalID: -8581907477582537665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_12'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 289
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6b1790103542d10800000000000000
+      internalID: 2099894590180013820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_13'
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 406
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b776911c47b0ee0800000000000000
+      internalID: -1293812095235163389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_14'
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 406
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef3939ddf995dbc0800000000000000
+      internalID: -3758928998420627487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_15'
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 406
+        width: 184
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec26d46508813110800000000000000
+      internalID: 1238920929251568872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_16'
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 287
+        width: 39
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280c867ddbbd5d030800000000000000
+      internalID: 3518960292269179010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_17'
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 287
+        width: 39
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cb69e7512017110800000000000000
+      internalID: 1256788062354455683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_18'
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 287
+        width: 39
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9221213029b37d760800000000000000
+      internalID: 7482514804202148393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_19'
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 287
+        width: 39
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1607494f0fd9320800000000000000
+      internalID: 2566472295924130224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_20'
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 287
+        width: 39
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb2dd0ccce5189c0800000000000000
+      internalID: -3926753166588302372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_21'
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 287
+        width: 39
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42086490a3f096840800000000000000
+      internalID: 5217718385223565348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_22'
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 312
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61170e273a558f3e0800000000000000
+      internalID: -2019770272380325610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_23'
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 312
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec153f72c9d103180800000000000000
+      internalID: -9137771087412375090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_24'
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 312
+        width: 189
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05583ad97075608a0800000000000000
+      internalID: -6339283735256267440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_25'
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 191
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f100e951572152e0800000000000000
+      internalID: -2138885117670587915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_26'
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 191
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c680e5a222d379540800000000000000
+      internalID: 5014543927049324652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_27'
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 191
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe3310e528cdf9b0800000000000000
+      internalID: -5044655942586384650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_28'
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 191
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b4b79118db4d440800000000000000
+      internalID: 4959797451817700111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_29'
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 191
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf45e6c95facc3550800000000000000
+      internalID: 6142007148066788604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_30'
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 191
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a0f3e5205a655f0800000000000000
+      internalID: -768245256830383590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_31'
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 216
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343540f25ed95cb20800000000000000
+      internalID: 3154100721704784707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_32'
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 216
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f603e4b5c242d2f0800000000000000
+      internalID: -949623154510985486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_33'
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 216
+        width: 189
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e7ced3ffe7b6a90800000000000000
+      internalID: -7319617134639940010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_34'
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 95
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f095dd7aaf115a0800000000000000
+      internalID: -6552180383967277287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_35'
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 95
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca143d2d03a96ab30800000000000000
+      internalID: 4298292428857885100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_36'
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 95
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26fcb8b77b0af590800000000000000
+      internalID: -7639781209052219859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_37'
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 95
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869ba52e605e01220800000000000000
+      internalID: 2454713614647081320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_38'
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 95
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cca243f838b9b8c0800000000000000
+      internalID: -3982949840693580601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_39'
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 95
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af8c0d6ca31a44e0800000000000000
+      internalID: -1996761853500551256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_40'
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 120
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52cbdda76fb6080b0800000000000000
+      internalID: -5728460019647792091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_41'
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 120
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9b2e1016c36df90800000000000000
+      internalID: -6929284589321799189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_42'
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 120
+        width: 189
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f021d5b055660070800000000000000
+      internalID: 8072250779430363384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_43'
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 39
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51a01f0becb29850800000000000000
+      internalID: 6382371339693498719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_44'
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 0
+        width: 39
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69f371db60fc1e90800000000000000
+      internalID: -7053498570502833810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_45'
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 39
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca3d77d5481a2650800000000000000
+      internalID: 6208801724530768589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_46'
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 39
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351be371b727a39a0800000000000000
+      internalID: -6252559259653983917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_47'
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 39
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3673ab2915461770800000000000000
+      internalID: 8581122114409690686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_48'
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 39
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5828be6e452fb190800000000000000
+      internalID: -7944590198863026083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_49'
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 24
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba65b6f464bb6f490800000000000000
+      internalID: -7712771401170856277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_50'
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 24
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2585a83da4924600800000000000000
+      internalID: 451086384391095597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!Fantasy_chest_51'
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 24
+        width: 189
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6467041ab42de80800000000000000
+      internalID: -8155372819271235936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      '!Fantasy_chest_0': -5772380238785565400
+      '!Fantasy_chest_1': 6595116209640013961
+      '!Fantasy_chest_10': -4006130815583682409
+      '!Fantasy_chest_11': -8581907477582537665
+      '!Fantasy_chest_12': 2099894590180013820
+      '!Fantasy_chest_13': -1293812095235163389
+      '!Fantasy_chest_14': -3758928998420627487
+      '!Fantasy_chest_15': 1238920929251568872
+      '!Fantasy_chest_16': 3518960292269179010
+      '!Fantasy_chest_17': 1256788062354455683
+      '!Fantasy_chest_18': 7482514804202148393
+      '!Fantasy_chest_19': 2566472295924130224
+      '!Fantasy_chest_2': -4853313622590287325
+      '!Fantasy_chest_20': -3926753166588302372
+      '!Fantasy_chest_21': 5217718385223565348
+      '!Fantasy_chest_22': -2019770272380325610
+      '!Fantasy_chest_23': -9137771087412375090
+      '!Fantasy_chest_24': -6339283735256267440
+      '!Fantasy_chest_25': -2138885117670587915
+      '!Fantasy_chest_26': 5014543927049324652
+      '!Fantasy_chest_27': -5044655942586384650
+      '!Fantasy_chest_28': 4959797451817700111
+      '!Fantasy_chest_29': 6142007148066788604
+      '!Fantasy_chest_3': 8295256077503247742
+      '!Fantasy_chest_30': -768245256830383590
+      '!Fantasy_chest_31': 3154100721704784707
+      '!Fantasy_chest_32': -949623154510985486
+      '!Fantasy_chest_33': -7319617134639940010
+      '!Fantasy_chest_34': -6552180383967277287
+      '!Fantasy_chest_35': 4298292428857885100
+      '!Fantasy_chest_36': -7639781209052219859
+      '!Fantasy_chest_37': 2454713614647081320
+      '!Fantasy_chest_38': -3982949840693580601
+      '!Fantasy_chest_39': -1996761853500551256
+      '!Fantasy_chest_4': -4098059277428420858
+      '!Fantasy_chest_40': -5728460019647792091
+      '!Fantasy_chest_41': -6929284589321799189
+      '!Fantasy_chest_42': 8072250779430363384
+      '!Fantasy_chest_43': 6382371339693498719
+      '!Fantasy_chest_44': -7053498570502833810
+      '!Fantasy_chest_45': 6208801724530768589
+      '!Fantasy_chest_46': -6252559259653983917
+      '!Fantasy_chest_47': 8581122114409690686
+      '!Fantasy_chest_48': -7944590198863026083
+      '!Fantasy_chest_49': -7712771401170856277
+      '!Fantasy_chest_5': 7306229857013984374
+      '!Fantasy_chest_50': 451086384391095597
+      '!Fantasy_chest_51': -8155372819271235936
+      '!Fantasy_chest_6': -4589860269284037976
+      '!Fantasy_chest_7': -6165973893095988086
+      '!Fantasy_chest_8': -3728461631005821824
+      '!Fantasy_chest_9': -970880817553771556
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1781 @@
+fileFormatVersion: 2
+guid: 2d5be5df2ff154a4cb189930d715f151
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5165887869397067557
+    second: Fantasy_Inside_C_0
+  - first:
+      213: -8907107058851620156
+    second: Fantasy_Inside_C_1
+  - first:
+      213: -1986209708875534665
+    second: Fantasy_Inside_C_2
+  - first:
+      213: -7642198425261713962
+    second: Fantasy_Inside_C_3
+  - first:
+      213: 9201782925378702130
+    second: Fantasy_Inside_C_4
+  - first:
+      213: -4770058510903094528
+    second: Fantasy_Inside_C_5
+  - first:
+      213: -2865602029212091438
+    second: Fantasy_Inside_C_6
+  - first:
+      213: -2145962787259151685
+    second: Fantasy_Inside_C_7
+  - first:
+      213: 8377194431955914062
+    second: Fantasy_Inside_C_8
+  - first:
+      213: -4825153958493896888
+    second: Fantasy_Inside_C_9
+  - first:
+      213: -6393108986198267247
+    second: Fantasy_Inside_C_10
+  - first:
+      213: 899559250616481385
+    second: Fantasy_Inside_C_11
+  - first:
+      213: 995683492682339870
+    second: Fantasy_Inside_C_12
+  - first:
+      213: -8220097772702924171
+    second: Fantasy_Inside_C_13
+  - first:
+      213: -1301904586803012761
+    second: Fantasy_Inside_C_14
+  - first:
+      213: 8423035066140472679
+    second: Fantasy_Inside_C_15
+  - first:
+      213: -7447285603384395232
+    second: Fantasy_Inside_C_16
+  - first:
+      213: 4661199230965696226
+    second: Fantasy_Inside_C_17
+  - first:
+      213: -6234715217402572390
+    second: Fantasy_Inside_C_18
+  - first:
+      213: 4661324283761273351
+    second: Fantasy_Inside_C_19
+  - first:
+      213: 423996106235933291
+    second: Fantasy_Inside_C_20
+  - first:
+      213: 4019440109711920102
+    second: Fantasy_Inside_C_21
+  - first:
+      213: -4730369117374147696
+    second: Fantasy_Inside_C_22
+  - first:
+      213: -2742592421392166434
+    second: Fantasy_Inside_C_23
+  - first:
+      213: -1365499826191763312
+    second: Fantasy_Inside_C_24
+  - first:
+      213: 5555998869114163562
+    second: Fantasy_Inside_C_25
+  - first:
+      213: 4773065886999745525
+    second: Fantasy_Inside_C_26
+  - first:
+      213: -3399335405687911512
+    second: Fantasy_Inside_C_27
+  - first:
+      213: -6155956220235479754
+    second: Fantasy_Inside_C_28
+  - first:
+      213: -4543115258043654198
+    second: Fantasy_Inside_C_29
+  - first:
+      213: -6224186238077905240
+    second: Fantasy_Inside_C_30
+  - first:
+      213: 4924914609835542472
+    second: Fantasy_Inside_C_31
+  - first:
+      213: -1359657474042393751
+    second: Fantasy_Inside_C_32
+  - first:
+      213: -8249690651476885353
+    second: Fantasy_Inside_C_33
+  - first:
+      213: -2249151433938997547
+    second: Fantasy_Inside_C_34
+  - first:
+      213: -6883911054389434525
+    second: Fantasy_Inside_C_35
+  - first:
+      213: -7499542824548757980
+    second: Fantasy_Inside_C_36
+  - first:
+      213: 8562902701320337495
+    second: Fantasy_Inside_C_37
+  - first:
+      213: -4775969876305409398
+    second: Fantasy_Inside_C_38
+  - first:
+      213: -8412461474486615995
+    second: Fantasy_Inside_C_39
+  - first:
+      213: -8063286245704216
+    second: Fantasy_Inside_C_40
+  - first:
+      213: 800254537027592776
+    second: Fantasy_Inside_C_41
+  - first:
+      213: 3426819291579335834
+    second: Fantasy_Inside_C_42
+  - first:
+      213: 5647386690386659538
+    second: Fantasy_Inside_C_43
+  - first:
+      213: 8256370614383109297
+    second: Fantasy_Inside_C_44
+  - first:
+      213: 8405749559220092453
+    second: Fantasy_Inside_C_45
+  - first:
+      213: 4243458743030227701
+    second: Fantasy_Inside_C_46
+  - first:
+      213: 1137413755191178193
+    second: Fantasy_Inside_C_47
+  - first:
+      213: 1899688181518562896
+    second: Fantasy_Inside_C_48
+  - first:
+      213: 3224199486986260160
+    second: Fantasy_Inside_C_49
+  - first:
+      213: -5129379384350293799
+    second: Fantasy_Inside_C_50
+  - first:
+      213: 6522784624527772056
+    second: Fantasy_Inside_C_51
+  - first:
+      213: 5633132937486794663
+    second: Fantasy_Inside_C_52
+  - first:
+      213: -4717821128870732545
+    second: Fantasy_Inside_C_53
+  - first:
+      213: 211185933351726810
+    second: Fantasy_Inside_C_54
+  - first:
+      213: 8753248722057549486
+    second: Fantasy_Inside_C_55
+  - first:
+      213: -7785506588089591677
+    second: Fantasy_Inside_C_56
+  - first:
+      213: -7540234132500677530
+    second: Fantasy_Inside_C_57
+  - first:
+      213: 4149848571485036735
+    second: Fantasy_Inside_C_58
+  - first:
+      213: 7091490994317239324
+    second: Fantasy_Inside_C_59
+  - first:
+      213: -401109113073361944
+    second: Fantasy_Inside_C_60
+  - first:
+      213: 6680845078539512213
+    second: Fantasy_Inside_C_61
+  - first:
+      213: -3558116012064023466
+    second: Fantasy_Inside_C_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 648
+        width: 41
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd896135a541f48b0800000000000000
+      internalID: -5165887869397067557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 644
+        width: 44
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca56c46259936480800000000000000
+      internalID: -8907107058851620156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 644
+        width: 46
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7beaa0d0bc09f64e0800000000000000
+      internalID: -1986209708875534665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 695
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5d937b50571f590800000000000000
+      internalID: -7642198425261713962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 694
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23bc37741dc43bf70800000000000000
+      internalID: 9201782925378702130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_5
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 697
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003dac3ae095dcdb0800000000000000
+      internalID: -4770058510903094528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_6
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 697
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbbc2513265b38d0800000000000000
+      internalID: -2865602029212091438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_7
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 719
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba063cf6320832e0800000000000000
+      internalID: -2145962787259151685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_8
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 671
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4dcc1b93f5c14470800000000000000
+      internalID: 8377194431955914062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_9
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 671
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fb66d1a0c990db0800000000000000
+      internalID: -4825153958493896888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_10
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 671
+        width: 26
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a6b4bcf3d1747a0800000000000000
+      internalID: -6393108986198267247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_11
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 671
+        width: 26
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96679635f50eb7c00800000000000000
+      internalID: 899559250616481385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_12
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 673
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e161d0a7cd061dd00800000000000000
+      internalID: 995683492682339870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_13
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 673
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572001fa0a85ced80800000000000000
+      internalID: -8220097772702924171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_14
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 719
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b97241da4beede0800000000000000
+      internalID: -1301904586803012761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_15
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 719
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76536f7f3c1a4e470800000000000000
+      internalID: 8423035066140472679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_16
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 671
+        width: 94
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a746d733de5a890800000000000000
+      internalID: -7447285603384395232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 548
+        width: 43
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6c8052108efa040800000000000000
+      internalID: 4661199230965696226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 511
+        width: 142
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a915ffeea87d979a0800000000000000
+      internalID: -6234715217402572390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_19
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 599
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a2e744db950b040800000000000000
+      internalID: 4661324283761273351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_20
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 602
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b627752563652e500800000000000000
+      internalID: 423996106235933291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_21
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 601
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb065fdb7be7c730800000000000000
+      internalID: 4019440109711920102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_22
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 602
+        width: 96
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0939f6ea95a5a5eb0800000000000000
+      internalID: -4730369117374147696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_23
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 575
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1dd3f39ba50f9d0800000000000000
+      internalID: -2742592421392166434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_24
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 575
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0987bfe8425cc0de0800000000000000
+      internalID: -1365499826191763312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_25
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 575
+        width: 26
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a619506d88fda1d40800000000000000
+      internalID: 5555998869114163562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_26
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 575
+        width: 26
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3972ca2265d3240800000000000000
+      internalID: 4773065886999745525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_27
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 577
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab409f757223d0d0800000000000000
+      internalID: -3399335405687911512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_28
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 577
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6350200fe66a19aa0800000000000000
+      internalID: -6155956220235479754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_29
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 551
+        width: 28
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf96a64ebc93f0c0800000000000000
+      internalID: -4543115258043654198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_30
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 605
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6dd77f79f3f99a0800000000000000
+      internalID: -6224186238077905240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_31
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 511
+        width: 98
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7016c8ebfc85440800000000000000
+      internalID: 4924914609835542472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_32
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 431
+        width: 144
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b8f7b2bb6812de0800000000000000
+      internalID: -1359657474042393751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_33
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 479
+        width: 240
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7900cdbaf06338d80800000000000000
+      internalID: -8249690651476885353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_34
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 383
+        width: 49
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de6106ffa869c0e0800000000000000
+      internalID: -2249151433938997547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 479
+        width: 91
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367abb95e5f6770a0800000000000000
+      internalID: -6883911054389434525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_36
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 431
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e01fc09854ce790800000000000000
+      internalID: -7499542824548757980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 367
+        width: 97
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7587e6e73aa85d670800000000000000
+      internalID: 8562902701320337495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_38
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 367
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a89d0a3b858bdb0800000000000000
+      internalID: -4775969876305409398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_39
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 367
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540019e2cdee04b80800000000000000
+      internalID: -8412461474486615995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_40
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 367
+        width: 50
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed3a9fdb7a53eff0800000000000000
+      internalID: -8063286245704216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_41
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 367
+        width: 50
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842ac61f2431b1b00800000000000000
+      internalID: 800254537027592776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_42
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 287
+        width: 98
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94ca085df18e8f20800000000000000
+      internalID: 3426819291579335834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_43
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 383
+        width: 240
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d804c5164c8f5e40800000000000000
+      internalID: 5647386690386659538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_44
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 383
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b467446455849270800000000000000
+      internalID: 8256370614383109297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 155
+        width: 32
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52eb53440b837a470800000000000000
+      internalID: 8405749559220092453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_46
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 271
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2a7557e3bc3ea30800000000000000
+      internalID: 4243458743030227701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_47
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 271
+        width: 98
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d330d8b8c7e8cf00800000000000000
+      internalID: 1137413755191178193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_48
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 271
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056fb6b065c0d5a10800000000000000
+      internalID: 1899688181518562896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_49
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 287
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce00d2d958aebc20800000000000000
+      internalID: 3224199486986260160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_50
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 287
+        width: 144
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0c69560a8c0d8b0800000000000000
+      internalID: -5129379384350293799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_51
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 287
+        width: 95
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8998b5b8e06958a50800000000000000
+      internalID: 6522784624527772056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_52
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 287
+        width: 94
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aff37f9f88ec2e40800000000000000
+      internalID: 5633132937486794663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_53
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 191
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcd3dbedaee68eb0800000000000000
+      internalID: -4717821128870732545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_54
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 191
+        width: 98
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade2dfacc784ee200800000000000000
+      internalID: 211185933351726810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_55
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 176
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6d1e40659c97970800000000000000
+      internalID: 8753248722057549486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_56
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 475
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388d47ce10354f390800000000000000
+      internalID: -7785506588089591677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 91
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c7501a105bb5790800000000000000
+      internalID: -7540234132500677530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_58
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 119
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb02707f949379930800000000000000
+      internalID: 4149848571485036735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_59
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 6
+        width: 236
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14292cac790a6260800000000000000
+      internalID: 7091490994317239324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_60
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 17
+        width: 88
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb17170369fe6af0800000000000000
+      internalID: -401109113073361944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_61
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 43
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599a3c9c33127bc50800000000000000
+      internalID: 6680845078539512213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_Inside_C_62
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 45
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c5b47b6580f9ec0800000000000000
+      internalID: -3558116012064023466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Fantasy_Inside_C_0: -5165887869397067557
+      Fantasy_Inside_C_1: -8907107058851620156
+      Fantasy_Inside_C_10: -6393108986198267247
+      Fantasy_Inside_C_11: 899559250616481385
+      Fantasy_Inside_C_12: 995683492682339870
+      Fantasy_Inside_C_13: -8220097772702924171
+      Fantasy_Inside_C_14: -1301904586803012761
+      Fantasy_Inside_C_15: 8423035066140472679
+      Fantasy_Inside_C_16: -7447285603384395232
+      Fantasy_Inside_C_17: 4661199230965696226
+      Fantasy_Inside_C_18: -6234715217402572390
+      Fantasy_Inside_C_19: 4661324283761273351
+      Fantasy_Inside_C_2: -1986209708875534665
+      Fantasy_Inside_C_20: 423996106235933291
+      Fantasy_Inside_C_21: 4019440109711920102
+      Fantasy_Inside_C_22: -4730369117374147696
+      Fantasy_Inside_C_23: -2742592421392166434
+      Fantasy_Inside_C_24: -1365499826191763312
+      Fantasy_Inside_C_25: 5555998869114163562
+      Fantasy_Inside_C_26: 4773065886999745525
+      Fantasy_Inside_C_27: -3399335405687911512
+      Fantasy_Inside_C_28: -6155956220235479754
+      Fantasy_Inside_C_29: -4543115258043654198
+      Fantasy_Inside_C_3: -7642198425261713962
+      Fantasy_Inside_C_30: -6224186238077905240
+      Fantasy_Inside_C_31: 4924914609835542472
+      Fantasy_Inside_C_32: -1359657474042393751
+      Fantasy_Inside_C_33: -8249690651476885353
+      Fantasy_Inside_C_34: -2249151433938997547
+      Fantasy_Inside_C_35: -6883911054389434525
+      Fantasy_Inside_C_36: -7499542824548757980
+      Fantasy_Inside_C_37: 8562902701320337495
+      Fantasy_Inside_C_38: -4775969876305409398
+      Fantasy_Inside_C_39: -8412461474486615995
+      Fantasy_Inside_C_4: 9201782925378702130
+      Fantasy_Inside_C_40: -8063286245704216
+      Fantasy_Inside_C_41: 800254537027592776
+      Fantasy_Inside_C_42: 3426819291579335834
+      Fantasy_Inside_C_43: 5647386690386659538
+      Fantasy_Inside_C_44: 8256370614383109297
+      Fantasy_Inside_C_45: 8405749559220092453
+      Fantasy_Inside_C_46: 4243458743030227701
+      Fantasy_Inside_C_47: 1137413755191178193
+      Fantasy_Inside_C_48: 1899688181518562896
+      Fantasy_Inside_C_49: 3224199486986260160
+      Fantasy_Inside_C_5: -4770058510903094528
+      Fantasy_Inside_C_50: -5129379384350293799
+      Fantasy_Inside_C_51: 6522784624527772056
+      Fantasy_Inside_C_52: 5633132937486794663
+      Fantasy_Inside_C_53: -4717821128870732545
+      Fantasy_Inside_C_54: 211185933351726810
+      Fantasy_Inside_C_55: 8753248722057549486
+      Fantasy_Inside_C_56: -7785506588089591677
+      Fantasy_Inside_C_57: -7540234132500677530
+      Fantasy_Inside_C_58: 4149848571485036735
+      Fantasy_Inside_C_59: 7091490994317239324
+      Fantasy_Inside_C_6: -2865602029212091438
+      Fantasy_Inside_C_60: -401109113073361944
+      Fantasy_Inside_C_61: 6680845078539512213
+      Fantasy_Inside_C_62: -3558116012064023466
+      Fantasy_Inside_C_7: -2145962787259151685
+      Fantasy_Inside_C_8: 8377194431955914062
+      Fantasy_Inside_C_9: -4825153958493896888
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
