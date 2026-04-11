@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: b0c5e35a7b76d45058da0d69ce38b8ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5266678453609231872
+    second: A3 - Walls_0
+  - first:
+      213: 2791143630337691167
+    second: A3 - Walls_1
+  - first:
+      213: -3881004973944187758
+    second: A3 - Walls_2
+  - first:
+      213: 8485294591594668412
+    second: A3 - Walls_3
+  - first:
+      213: -1658857072431182176
+    second: A3 - Walls_4
+  - first:
+      213: 1285067122137428387
+    second: A3 - Walls_5
+  - first:
+      213: 6059270156340684075
+    second: A3 - Walls_6
+  - first:
+      213: 8709675903330742655
+    second: A3 - Walls_7
+  - first:
+      213: 7439711979637134178
+    second: A3 - Walls_8
+  - first:
+      213: 5048652089404059558
+    second: A3 - Walls_9
+  - first:
+      213: 3328515500119122551
+    second: A3 - Walls_10
+  - first:
+      213: -7282593587331338025
+    second: A3 - Walls_11
+  - first:
+      213: -7224093311906449224
+    second: A3 - Walls_12
+  - first:
+      213: 5208188019660150316
+    second: A3 - Walls_13
+  - first:
+      213: 6075565335770491239
+    second: A3 - Walls_14
+  - first:
+      213: 7578568197103675096
+    second: A3 - Walls_15
+  - first:
+      213: 6515051775637795886
+    second: A3 - Walls_16
+  - first:
+      213: 7920850744851002217
+    second: A3 - Walls_17
+  - first:
+      213: -4303933505923090682
+    second: A3 - Walls_18
+  - first:
+      213: -4992209145470587239
+    second: A3 - Walls_19
+  - first:
+      213: 2588373035933718726
+    second: A3 - Walls_20
+  - first:
+      213: 2838653726267855116
+    second: A3 - Walls_21
+  - first:
+      213: -2752812870110307126
+    second: A3 - Walls_22
+  - first:
+      213: -902528251116980895
+    second: A3 - Walls_23
+  - first:
+      213: 5998369537383212547
+    second: A3 - Walls_24
+  - first:
+      213: 2153418289677067379
+    second: A3 - Walls_25
+  - first:
+      213: -4811000722270901206
+    second: A3 - Walls_26
+  - first:
+      213: 3142687850082517573
+    second: A3 - Walls_27
+  - first:
+      213: -5524494942489733160
+    second: A3 - Walls_28
+  - first:
+      213: 4818790326796700334
+    second: A3 - Walls_29
+  - first:
+      213: -7506645710069007471
+    second: A3 - Walls_30
+  - first:
+      213: -8894621047286809019
+    second: A3 - Walls_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A3 - Walls_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1343
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006f4954620071940800000000000000
+      internalID: 5266678453609231872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1343
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e4f5bf7522cb620800000000000000
+      internalID: 2791143630337691167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_2
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1343
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2945884e986e32ac0800000000000000
+      internalID: -3881004973944187758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_3
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1343
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c712b8a5972d1c570800000000000000
+      internalID: 8485294591594668412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1151
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae4898184e8af8e0800000000000000
+      internalID: -1658857072431182176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_5
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1151
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1f88f2db975d110800000000000000
+      internalID: 1285067122137428387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_6
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1151
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25efc29a1ad61450800000000000000
+      internalID: 6059270156340684075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_7
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1151
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71fec6961cfed870800000000000000
+      internalID: 8709675903330742655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 959
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2635d71d0aa2f3760800000000000000
+      internalID: 7439711979637134178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_9
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 959
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af667f835a601640800000000000000
+      internalID: 5048652089404059558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_10
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 959
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7726bfd4633413e20800000000000000
+      internalID: 3328515500119122551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_11
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 959
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0f39797b70fea90800000000000000
+      internalID: -7282593587331338025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 767
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b87a8f586ddebb90800000000000000
+      internalID: -7224093311906449224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_13
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 767
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26d943e863374840800000000000000
+      internalID: 5208188019660150316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_14
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 767
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769e640bb7eb05450800000000000000
+      internalID: 6075565335770491239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_15
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 767
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6ef6e4f9b7c2960800000000000000
+      internalID: 7578568197103675096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 575
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e243b2c521d1a6a50800000000000000
+      internalID: 6515051775637795886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_17
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 575
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9637bb539c38ced60800000000000000
+      internalID: 7920850744851002217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_18
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 575
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6077d82974b5544c0800000000000000
+      internalID: -4303933505923090682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_19
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 575
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ee4c76b3c18bab0800000000000000
+      internalID: -4992209145470587239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c85709ff8fbbe320800000000000000
+      internalID: 2588373035933718726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_21
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 383
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01d882368ce46720800000000000000
+      internalID: 2838653726267855116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_22
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 383
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc93f7974b0cc9d0800000000000000
+      internalID: -2752812870110307126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_23
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 383
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165fa6066539973f0800000000000000
+      internalID: -902528251116980895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3062043405d7e3350800000000000000
+      internalID: 5998369537383212547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_25
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 191
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374e701768a72ed10800000000000000
+      internalID: 2153418289677067379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_26
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 191
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c25e63554eb3db0800000000000000
+      internalID: -4811000722270901206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_27
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 191
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542ca10f2f11d9b20800000000000000
+      internalID: 3142687850082517573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7157dae1d0553b0800000000000000
+      internalID: -5524494942489733160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_29
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa4ecb6548cfd240800000000000000
+      internalID: 4818790326796700334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_30
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b70a4af7903d790800000000000000
+      internalID: -7506645710069007471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A3 - Walls_31
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 0
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54eb1c08845ff8480800000000000000
+      internalID: -8894621047286809019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A3 - Walls_0: 5266678453609231872
+      A3 - Walls_1: 2791143630337691167
+      A3 - Walls_10: 3328515500119122551
+      A3 - Walls_11: -7282593587331338025
+      A3 - Walls_12: -7224093311906449224
+      A3 - Walls_13: 5208188019660150316
+      A3 - Walls_14: 6075565335770491239
+      A3 - Walls_15: 7578568197103675096
+      A3 - Walls_16: 6515051775637795886
+      A3 - Walls_17: 7920850744851002217
+      A3 - Walls_18: -4303933505923090682
+      A3 - Walls_19: -4992209145470587239
+      A3 - Walls_2: -3881004973944187758
+      A3 - Walls_20: 2588373035933718726
+      A3 - Walls_21: 2838653726267855116
+      A3 - Walls_22: -2752812870110307126
+      A3 - Walls_23: -902528251116980895
+      A3 - Walls_24: 5998369537383212547
+      A3 - Walls_25: 2153418289677067379
+      A3 - Walls_26: -4811000722270901206
+      A3 - Walls_27: 3142687850082517573
+      A3 - Walls_28: -5524494942489733160
+      A3 - Walls_29: 4818790326796700334
+      A3 - Walls_3: 8485294591594668412
+      A3 - Walls_30: -7506645710069007471
+      A3 - Walls_31: -8894621047286809019
+      A3 - Walls_4: -1658857072431182176
+      A3 - Walls_5: 1285067122137428387
+      A3 - Walls_6: 6059270156340684075
+      A3 - Walls_7: 8709675903330742655
+      A3 - Walls_8: 7439711979637134178
+      A3 - Walls_9: 5048652089404059558
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

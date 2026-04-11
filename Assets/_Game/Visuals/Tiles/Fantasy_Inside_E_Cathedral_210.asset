@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Fantasy_Inside_E_Cathedral_210
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 2032540649, guid: 7e6f63ed30ff64cca8dbb2b79b13778a, type: 3}
+  m_Sprite: {fileID: 1923055321, guid: 4dfa997eb262f460182a33bdbfd1b36d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
