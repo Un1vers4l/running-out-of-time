@@ -13,7 +13,7 @@ public abstract class InteractableBase : MonoBehaviour, IInteractable
   private readonly System.Collections.Generic.Dictionary<SpriteRenderer, Color> _defaultSpriteColors
     = new System.Collections.Generic.Dictionary<SpriteRenderer, Color>();
 
-  // TODO: Maybe do this differently; quick llm solution for until we know for sure which sprite we use
+  // TODO: Maybe do this differently; quick llm solution until we know for sure which sprite we use
   public virtual void SetHighlightInUI(bool isHighlighted)
   {
     var spriteRenderers = GetComponentsInChildren<SpriteRenderer>(true);
