@@ -52,6 +52,12 @@ public class PlayerEnvironmentInteraction : MonoBehaviour
     {
       _nearbyInteractables.Remove(interactable);
     }
+
+    if (_nearbyInteractables.Count == 0)
+    {
+      _currentInteractionTarget.SetHighlightInUI(false);
+      _currentInteractionTarget = null;
+    }
   }
 
   private IInteractable GetClosestInteractable()
