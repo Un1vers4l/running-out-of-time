@@ -6623,102 +6623,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &1542369906 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5650408923199815716, guid: 4fc65f63e430348da9b46228c910e6a9, type: 3}
-  m_PrefabInstance: {fileID: 2993026798377654414}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1542369913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1542369906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c189c8776f9694b5794d6cb5a778088f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerEnvironmentInteraction
-  interactAction: {fileID: 1781555164194001046, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
---- !u!58 &1542369914
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1542369906}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 4}
-  m_Radius: 10
---- !u!1 &1808374537 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6132856016560162149, guid: 0af36a416c9244b6ebd50caf4fc30ed9, type: 3}
-  m_PrefabInstance: {fileID: 2989556457535935301}
-  m_PrefabAsset: {fileID: 0}
---- !u!70 &1808374543
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1808374537}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: -0.2254636, y: 3.9456244}
-  m_Size: {x: 4.3328915, y: 8.447613}
-  m_Direction: 0
 --- !u!1 &1911454909
 GameObject:
   m_ObjectHideFlags: 0
@@ -9485,22 +9389,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kultist_NPC
       objectReference: {fileID: 0}
-    - target: {fileID: 7215456630242469606, guid: 0af36a416c9244b6ebd50caf4fc30ed9, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7215456630242469606, guid: 0af36a416c9244b6ebd50caf4fc30ed9, type: 3}
-      propertyPath: m_CompositeOperation
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7215456630242469606, guid: 0af36a416c9244b6ebd50caf4fc30ed9, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6132856016560162149, guid: 0af36a416c9244b6ebd50caf4fc30ed9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1808374543}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0af36a416c9244b6ebd50caf4fc30ed9, type: 3}
 --- !u!1001 &2993026798377654414
 PrefabInstance:
@@ -9554,20 +9446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 5650408923199815716, guid: 4fc65f63e430348da9b46228c910e6a9, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5650408923199815716, guid: 4fc65f63e430348da9b46228c910e6a9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1542369913}
-    - targetCorrespondingSourceObject: {fileID: 5650408923199815716, guid: 4fc65f63e430348da9b46228c910e6a9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1542369914}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fc65f63e430348da9b46228c910e6a9, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
