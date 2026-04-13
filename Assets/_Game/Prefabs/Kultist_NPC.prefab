@@ -1466,8 +1466,8 @@ GameObject:
   - component: {fileID: 350637606144565614}
   - component: {fileID: 3515215259876303478}
   - component: {fileID: 6040558549628488996}
-  - component: {fileID: 7215456630242469606}
   - component: {fileID: 615978868183445148}
+  - component: {fileID: 6821701927695569290}
   m_Layer: 0
   m_Name: Kultist_NPC
   m_TagString: Untagged
@@ -1540,8 +1540,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &7215456630242469606
-CircleCollider2D:
+--- !u!114 &615978868183445148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6132856016560162149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4152e4b0988d34a219f688b2fbf6c155, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KultistNPC
+--- !u!70 &6821701927695569290
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1570,24 +1582,13 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 4}
-  m_Radius: 10
---- !u!114 &615978868183445148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6132856016560162149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4152e4b0988d34a219f688b2fbf6c155, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::KultistNPC
+  m_Offset: {x: -0.2254636, y: 3.9456244}
+  m_Size: {x: 4.3328915, y: 8.447613}
+  m_Direction: 0
 --- !u!1 &6236035391621322123
 GameObject:
   m_ObjectHideFlags: 0
