@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.InputSystem; // Wichtig für das neue Input System
+using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator), typeof(SpriteRenderer))]
 public class PlayerMovement : MonoBehaviour
 {

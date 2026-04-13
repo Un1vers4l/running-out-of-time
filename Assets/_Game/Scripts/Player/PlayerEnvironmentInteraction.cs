@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -44,7 +43,6 @@ public class PlayerEnvironmentInteraction : MonoBehaviour
     if (!_nearbyInteractables.Contains(interactable))
     {
       _nearbyInteractables.Add(interactable);
-      Debug.Log("Length " + _nearbyInteractables.Count);
     }
 
   }
@@ -53,7 +51,6 @@ public class PlayerEnvironmentInteraction : MonoBehaviour
     if (collision.TryGetComponent(out IInteractable interactable))
     {
       _nearbyInteractables.Remove(interactable);
-      Debug.Log("Length " + _nearbyInteractables.Count);
     }
   }
 
