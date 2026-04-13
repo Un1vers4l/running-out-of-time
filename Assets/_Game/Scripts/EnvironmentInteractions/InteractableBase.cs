@@ -9,7 +9,7 @@ public abstract class InteractableBase : MonoBehaviour, IInteractable
     PlayInteractionSound();
   }
 
-  public virtual void Highlight()
+  public virtual void SetHighlightInUI(bool isHighlighted)
   {
     // default highlight logic
     Debug.Log("Highlight object: " + gameObject.name);
