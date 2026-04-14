@@ -4,19 +4,23 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement Settings")]
-    public float moveSpeed = 10f;
+    public float moveSpeed = 5f;
     [Header("Input References")]
     public InputActionReference moveAction;
-    private Rigidbody2D rb;
-    private Animator animator;
-    private SpriteRenderer spriteRenderer;
-    private Vector2 moveInput;
+
+    private Rigidbody2D _rigidBody;
+    private Animator _animator;
+    private SpriteRenderer _spriteRenderer;
+
+    private Vector2 _moveVector;
+
+    private readonly string _walkingAnimationTriggerName = "isWalking";
 
     private void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        _rigidBody = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void OnEnable()
@@ -31,27 +35,28 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        moveInput = moveAction.action.ReadValue<Vector2>();
-        // TODO: flip sprite and start walk animation when its clear which sprite we are using (might come with custom animation controller)
-        // UpdateAnimationAndDirection();
+        _moveVector = moveAction.action.ReadValue<Vector2>();
+        UpdateSpriteDirectionAndAnimation();
     }
 
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + moveInput * moveSpeed * Time.fixedDeltaTime);
+        _rigidBody.MovePosition(_rigidBody.position + moveSpeed * Time.fixedDeltaTime * _moveVector);
     }
 
-    // private void UpdateAnimationAndDirection()
-    // {
-    //     animator.SetFloat("Speed", Mathf.Abs(moveInput.x));
+    private void UpdateSpriteDirectionAndAnimation()
+    {
+        if (_moveVector == Vector2.zero)
+        {
+            _animator.SetBool(_walkingAnimationTriggerName, false);
+            return;
+        }
 
-    //     if (moveInput.x > 0)
-    //     {
-    //         spriteRenderer.flipX = false; // Schaut nach rechts
-    //     }
-    //     else if (moveInput.x < 0)
-    //     {
-    //         spriteRenderer.flipX = true;  // Schaut nach links
-    //     }
-    // }
+        _animator.SetBool(_walkingAnimationTriggerName, true);
+
+        if (_moveVector.x != 0)
+        {
+            _spriteRenderer.flipX = _moveVector.x < 0;
+        }
+    }
 }
