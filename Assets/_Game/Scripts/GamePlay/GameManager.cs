@@ -20,6 +20,8 @@ public class GameTimerStateMachine : MonoBehaviour
     [SerializeField] private GameObject endedUI;         // Shown when timer reaches 0
     [SerializeField] private Button restartGameButton;  // Restart button
 
+    public static GameTimerStateMachine Instance { get; private set; }
+
     public GameState State { get; private set; }
 
     private float remainingSeconds;
@@ -27,6 +29,7 @@ public class GameTimerStateMachine : MonoBehaviour
 
     private void Awake()
     {
+        Instance = this;
         remainingSeconds = gameDurationSeconds;
     }
 

@@ -35,7 +35,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        _moveVector = moveAction.action.ReadValue<Vector2>();
+        bool isPlaying = GameTimerStateMachine.Instance != null
+            && GameTimerStateMachine.Instance.State == GameTimerStateMachine.GameState.Playing;
+
+        _moveVector = isPlaying ? moveAction.action.ReadValue<Vector2>() : Vector2.zero;
         UpdateSpriteDirectionAndAnimation();
     }
 

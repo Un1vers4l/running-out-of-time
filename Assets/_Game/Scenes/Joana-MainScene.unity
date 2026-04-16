@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8840dd1ce686456c89195fdbe14c0d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  gameDurationSeconds: 3600
+  gameDurationSeconds: 5
   timerText: {fileID: 2005781881}
   startUI: {fileID: 1957111495}
   startGameButton: {fileID: 1002673456}
