@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+// using DialogueManager;
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator), typeof(SpriteRenderer))]
 public class PlayerMovement : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 _moveVector;
 
     private readonly string _walkingAnimationTriggerName = "isWalking";
+    private bool _canPlayerMove = true;
 
     private void Awake()
     {
@@ -25,25 +27,40 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnEnable()
     {
-        moveAction.action.Enable();
+        DialogueManager.OnDialogueStarted += DisableMovement;
+        DialogueManager.OnDialogueEnded += EnableMovement;
+
+        EnableMovement();
     }
 
     private void OnDisable()
     {
-        moveAction.action.Disable();
+        DialogueManager.OnDialogueStarted -= DisableMovement;
+        DialogueManager.OnDialogueEnded -= EnableMovement;
+
+        DisableMovement();
     }
 
     private void Update()
     {
         bool isPlaying = GameTimerStateMachine.Instance != null
             && GameTimerStateMachine.Instance.State == GameTimerStateMachine.GameState.Playing;
+        if (!_canPlayerMove || !isPlaying)
+        {
+            _canPlayerMove = false;
+            return
+        }
+        ;
 
-        _moveVector = isPlaying ? moveAction.action.ReadValue<Vector2>() : Vector2.zero;
+
+        _moveVector = moveAction.action.ReadValue<Vector2>();
         UpdateSpriteDirectionAndAnimation();
     }
 
     private void FixedUpdate()
     {
+        if (!_canPlayerMove) return;
+
         _rigidBody.MovePosition(_rigidBody.position + moveSpeed * Time.fixedDeltaTime * _moveVector);
     }
 
@@ -61,5 +78,17 @@ public class PlayerMovement : MonoBehaviour
         {
             _spriteRenderer.flipX = _moveVector.x < 0;
         }
+    }
+
+    private void EnableMovement()
+    {
+        moveAction.action.Enable();
+        _canPlayerMove = true;
+    }
+
+    private void DisableMovement()
+    {
+        moveAction.action.Disable();
+        _canPlayerMove = false;
     }
 }

@@ -8,18 +8,28 @@ public class PlayerEnvironmentInteraction : MonoBehaviour
   private List<IInteractable> _nearbyInteractables = new();
   private IInteractable _currentInteractionTarget;
 
-  void OnEnable()
+  private bool _canPlayerInteract = true;
+
+  private void OnEnable()
   {
-    interactAction.action.Enable();
+    DialogueManager.OnDialogueStarted += DisableInteraction;
+    DialogueManager.OnDialogueEnded += EnableInteraction;
+
+    EnableInteraction();
   }
 
   private void OnDisable()
   {
-    interactAction.action.Disable();
+    DialogueManager.OnDialogueStarted -= DisableInteraction;
+    DialogueManager.OnDialogueEnded -= EnableInteraction;
+
+    DisableInteraction();
   }
+
 
   void Update()
   {
+    if (!_canPlayerInteract) return;
     if (_nearbyInteractables.Count == 0) return;
 
     IInteractable closest = GetClosestInteractable();
@@ -30,11 +40,10 @@ public class PlayerEnvironmentInteraction : MonoBehaviour
 
     if (interactAction.action.WasPressedThisFrame())
     {
-      {
-        _currentInteractionTarget.Interact(gameObject);
-      }
+      _currentInteractionTarget.Interact(gameObject);
     }
   }
+
 
   private void OnTriggerEnter2D(Collider2D collision)
   {
@@ -44,8 +53,8 @@ public class PlayerEnvironmentInteraction : MonoBehaviour
     {
       _nearbyInteractables.Add(interactable);
     }
-
   }
+
   private void OnTriggerExit2D(Collider2D collision)
   {
     if (collision.TryGetComponent(out IInteractable interactable))
@@ -88,5 +97,17 @@ public class PlayerEnvironmentInteraction : MonoBehaviour
     _currentInteractionTarget?.SetHighlightInUI(false);
     newTarget.SetHighlightInUI(true);
     _currentInteractionTarget = newTarget;
+  }
+
+  private void EnableInteraction()
+  {
+    interactAction.action.Enable();
+    _canPlayerInteract = true;
+  }
+
+  private void DisableInteraction()
+  {
+    interactAction.action.Disable();
+    _canPlayerInteract = false;
   }
 }

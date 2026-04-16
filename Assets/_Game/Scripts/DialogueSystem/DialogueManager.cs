@@ -3,11 +3,11 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Ink.Runtime;
-
+using System;
 [RequireComponent(typeof(CanvasGroup))]
 public class DialogueManager : MonoBehaviour
 {
-    public static DialogueManager Instance;
+    public static DialogueManager Instance { get; private set; }
 
     [Header("UI Components")]
     public TextMeshProUGUI SpeakerNameText;
@@ -15,11 +15,14 @@ public class DialogueManager : MonoBehaviour
 
     [Header("Typewriter")]
     [SerializeField] private float charactersPerSecond = 40f;
+    public InputActionReference dialogueAdvanceAction;
+    public static event Action OnDialogueStarted;
+    public static event Action OnDialogueEnded;
 
     private CanvasGroup _canvasGroup;
     private Story _currentInkStory;
-    private bool _isDialogPlaying;
-    public bool IsDialoguePlaying => _isDialogPlaying;
+    private bool _isDialoguePlaying = false;
+    public bool IsDialoguePlaying => _isDialoguePlaying;
     private bool _isTyping;
     private Coroutine _typingCoroutine;
 
@@ -34,9 +37,9 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
-        if (!_isDialogPlaying) return;
+        if (!_isDialoguePlaying) return;
 
-        if (Mouse.current.leftButton.wasPressedThisFrame)
+        if (dialogueAdvanceAction.action.WasPressedThisFrame())
         {
             if (_isTyping)
                 SkipTyping();
@@ -99,7 +102,9 @@ public class DialogueManager : MonoBehaviour
 
     private void ShowDialogPanel()
     {
-        _isDialogPlaying = true;
+        _isDialoguePlaying = true;
+        dialogueAdvanceAction.action.Enable();
+        OnDialogueStarted.Invoke();
         _canvasGroup.alpha = 1f;
         _canvasGroup.interactable = true;
         _canvasGroup.blocksRaycasts = true;
@@ -110,7 +115,9 @@ public class DialogueManager : MonoBehaviour
 
     private void HideDialogPanel()
     {
-        _isDialogPlaying = false;
+        _isDialoguePlaying = false;
+        dialogueAdvanceAction.action.Disable();
+        OnDialogueEnded.Invoke();
         _canvasGroup.alpha = 0f;
         _canvasGroup.interactable = false;
         _canvasGroup.blocksRaycasts = false;
