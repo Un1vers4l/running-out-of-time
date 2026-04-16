@@ -2,62 +2,70 @@ using TMPro;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Ink.Runtime;
+using System;
+
 
 public class DialogueManager : MonoBehaviour
 {
-    public RuntimeDialogueGraph RuntimeGraph;
+    public static DialogueManager Instance;
 
     [Header("UI Components")]
     public GameObject DialoguePanel;
-    public TextMeshProUGUI SpeakerNameText; 
+    public TextMeshProUGUI SpeakerNameText;
     public TextMeshProUGUI DialogueText;
 
-    private RuntimeDialogueNode _currentNode;
-    private  Dictionary<string, RuntimeDialogueNode> _nodeLookup = new Dictionary<string, RuntimeDialogueNode>();
-    private void Start(){
-        
-    }
+    private Story _currentInkStory;
+    private bool _isDialogPlaying;
 
+    void Awake()
+    {
+        if (Instance == null) { Instance = this; }
+        else { Destroy(gameObject); }
+        ;
 
-    public void StartDialogue(RuntimeDialogueGraph RuntimeGraph){
-        
-        foreach (var node in RuntimeGraph.AllNodes){
-            _nodeLookup[node.NodeID] = node;
-        }
-
-        if(!string.IsNullOrEmpty(RuntimeGraph.EntryNodeID)){
-            ShowNode(RuntimeGraph.EntryNodeID);
-        }else{
-            EndDialogue();
-        }
-    }
-
-    private void Update(){
-        if(Mouse.current.leftButton.wasPressedThisFrame && _currentNode != null){
-            if(!string.IsNullOrEmpty(_currentNode.NextNodeID)){
-                ShowNode(_currentNode.NextNodeID);
-            }else{
-                EndDialogue();
-            }
-        }
-    }
-
-    private void ShowNode(string nodeID){
-        if(!_nodeLookup.ContainsKey(nodeID)){
-            EndDialogue();
-            return;
-        }
-
-        _currentNode = _nodeLookup[nodeID];
-
-        DialoguePanel.SetActive(true);
-        Debug.Log(_currentNode.DialogueText);
-        SpeakerNameText.SetText(_currentNode.SpeakerName);
-        DialogueText.SetText(_currentNode.DialogueText);
-    }
-
-    private void EndDialogue(){
+        _isDialogPlaying = false;
         DialoguePanel.SetActive(false);
-        _currentNode = null;
+    }
+
+    private void Update()
+    {
+        if (!_isDialogPlaying) return;
+
+        if (Mouse.current.leftButton.wasPressedThisFrame)
+        {
+            ContinueDialogue();
+        }
+    }
+
+    public void StartDialogue(string speakerName, TextAsset inkDialogJSON)
+    {
+        _currentInkStory = new Story(inkDialogJSON.text);
+        SetDialogPlayingState(true);
+        SpeakerNameText.SetText(speakerName);
+
+        ContinueDialogue();
+    }
+
+    public void ContinueDialogue()
+    {
+        if (!_currentInkStory.canContinue)
+        {
+            SetDialogPlayingState(false);
+        }
+
+        DialogueText.SetText(_currentInkStory.Continue());
+    }
+
+    private void SetDialogPlayingState(bool isPlaying)
+    {
+        _isDialogPlaying = isPlaying;
+        DialoguePanel.SetActive(isPlaying);
+
+        if (!isPlaying && DialogueText.text.Length > 0)
+        {
+            DialogueText.SetText("");
+            SpeakerNameText.SetText("");
+        }
     }
 }
