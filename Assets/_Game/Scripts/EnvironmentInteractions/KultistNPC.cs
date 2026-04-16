@@ -15,7 +15,7 @@ public class KultistNPC : InteractableBase
   protected override void ExecuteInteraction(GameObject interactionSource)
   {
     // something something DialogController.startDialogue()
-    Debug.Log("Interacted with Cultist");
+    Debug.Log("Interacted with " + npcData?.displayName);
   }
 
   protected override void PlayInteractionSound()

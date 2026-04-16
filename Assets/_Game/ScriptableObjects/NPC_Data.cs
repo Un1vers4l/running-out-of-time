@@ -5,5 +5,5 @@ public class NPC_Data : ScriptableObject
 {
   public string displayName;
   public Color robeColor;
-  // [SerialzeField] DialogData dialogData;
+  public TextAsset dialogJSON;
 }
