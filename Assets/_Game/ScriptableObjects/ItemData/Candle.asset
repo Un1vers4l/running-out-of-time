@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49b81095b3b6647878ba1586a9c79c60, type: 3}
-  m_Name: Knife
+  m_Name: Candle
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemName: Knife2
-  icon: {fileID: -956420534109565633, guid: b1653a3319f114be7b564ecf9d5fa014, type: 3}
+  itemName: Candle
+  icon: {fileID: 6110912139075542874, guid: f98edb029aac14746b28097a28441ee2, type: 3}
