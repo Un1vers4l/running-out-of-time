@@ -3,18 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Ink.Runtime;
-using System;
 
-
+[RequireComponent(typeof(CanvasGroup))]
 public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager Instance;
 
     [Header("UI Components")]
-    public GameObject DialoguePanel;
     public TextMeshProUGUI SpeakerNameText;
     public TextMeshProUGUI DialogueText;
 
+    private CanvasGroup _canvasGroup;
     private Story _currentInkStory;
     private bool _isDialogPlaying;
 
@@ -24,11 +23,11 @@ public class DialogueManager : MonoBehaviour
         else { Destroy(gameObject); }
         ;
 
-        _isDialogPlaying = false;
-        DialoguePanel.SetActive(false);
+        _canvasGroup = GetComponent<CanvasGroup>();
+        HideDialogPanel();
     }
 
-    private void Update()
+    void Update()
     {
         if (!_isDialogPlaying) return;
 
@@ -41,31 +40,41 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(string speakerName, TextAsset inkDialogJSON)
     {
         _currentInkStory = new Story(inkDialogJSON.text);
-        SetDialogPlayingState(true);
+        ShowDialogPanel();
         SpeakerNameText.SetText(speakerName);
 
         ContinueDialogue();
     }
 
-    public void ContinueDialogue()
+    private void ContinueDialogue()
     {
         if (!_currentInkStory.canContinue)
         {
-            SetDialogPlayingState(false);
+            HideDialogPanel();
         }
 
         DialogueText.SetText(_currentInkStory.Continue());
     }
 
-    private void SetDialogPlayingState(bool isPlaying)
+    private void ShowDialogPanel()
     {
-        _isDialogPlaying = isPlaying;
-        DialoguePanel.SetActive(isPlaying);
+        _isDialogPlaying = true;
+        _canvasGroup.alpha = 1f;
+        _canvasGroup.interactable = true;
+        _canvasGroup.blocksRaycasts = true;
 
-        if (!isPlaying && DialogueText.text.Length > 0)
-        {
-            DialogueText.SetText("");
-            SpeakerNameText.SetText("");
-        }
+        if (DialogueText.text.Length > 0) DialogueText.text = "";
+        if (SpeakerNameText.text.Length > 0) SpeakerNameText.text = "";
+    }
+
+    private void HideDialogPanel()
+    {
+        _isDialogPlaying = false;
+        _canvasGroup.alpha = 0f;
+        _canvasGroup.interactable = false;
+        _canvasGroup.blocksRaycasts = false;
+
+        if (DialogueText.text.Length > 0) DialogueText.text = "";
+        if (SpeakerNameText.text.Length > 0) SpeakerNameText.text = "";
     }
 }
