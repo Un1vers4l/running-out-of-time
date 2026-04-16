@@ -310,7 +310,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: dd5b4ede7c6484a969972a9afbc43c18, type: 2}
     - target: {fileID: 6132856016560162149, guid: 0af36a416c9244b6ebd50caf4fc30ed9, type: 3}
       propertyPath: m_Name
-      value: Kultist_NPC
+      value: Shopcultist
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9472,13 +9472,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 615978868183445148, guid: 0af36a416c9244b6ebd50caf4fc30ed9, type: 3}
+      propertyPath: npcData
+      value: 
+      objectReference: {fileID: 11400000, guid: 434fea9cc97a5473dadbad4d788e9a02, type: 2}
     - target: {fileID: 6132856016560162149, guid: 0af36a416c9244b6ebd50caf4fc30ed9, type: 3}
       propertyPath: m_Name
-      value: Kultist_NPC (1)
+      value: Partycultist
       objectReference: {fileID: 0}
     - target: {fileID: 6132856016560162149, guid: 0af36a416c9244b6ebd50caf4fc30ed9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
