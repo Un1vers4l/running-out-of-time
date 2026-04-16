@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Data
   displayName: Shopkultist
   robeColor: {r: 1, g: 0.627043, b: 0, a: 1}
+  dialogJSON: {fileID: 4900000, guid: 7ccea0c6fcc004feb9ee8565cacec9a3, type: 3}
