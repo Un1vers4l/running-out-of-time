@@ -55,7 +55,7 @@ public class PlayerEnvironmentInteraction : MonoBehaviour
 
     if (_nearbyInteractables.Count == 0)
     {
-      _currentInteractionTarget.SetHighlightInUI(false);
+      _currentInteractionTarget?.SetHighlightInUI(false);
       _currentInteractionTarget = null;
     }
   }
