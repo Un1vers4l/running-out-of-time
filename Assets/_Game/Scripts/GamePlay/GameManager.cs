@@ -22,6 +22,7 @@ public class GameTimerStateMachine : MonoBehaviour
     public static GameTimerStateMachine Instance { get; private set; }
 
     public GameState State { get; private set; }
+    public bool IsStartScreenShowing => State == GameState.Ended && !startedOnce;
 
     private float remainingSeconds;
     private bool startedOnce;
