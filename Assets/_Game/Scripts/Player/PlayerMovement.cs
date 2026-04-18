@@ -45,10 +45,11 @@ public class PlayerMovement : MonoBehaviour
     {
         bool isPlaying = GameTimerStateMachine.Instance != null
             && GameTimerStateMachine.Instance.State == GameTimerStateMachine.GameState.Playing;
-        if (!_canPlayerMove || !isPlaying)
+        // if (!_canPlayerMove || !isPlaying) // TODO: Change back!!
+        if (!_canPlayerMove)
         {
             _canPlayerMove = false;
-            return
+            return;
         }
         ;
 
