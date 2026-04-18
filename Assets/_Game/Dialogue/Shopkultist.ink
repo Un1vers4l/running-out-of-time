@@ -1,2 +1,0 @@
-Ich mag Moneten!
-

@@ -9200,6 +9200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
   SpeakerNameText: {fileID: 119721335}
   DialogueText: {fileID: 419871317}
+  dialogueAdvanceAction: {fileID: 2378458579546102441, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
 --- !u!225 &1502285682
 CanvasGroup:
   m_ObjectHideFlags: 0

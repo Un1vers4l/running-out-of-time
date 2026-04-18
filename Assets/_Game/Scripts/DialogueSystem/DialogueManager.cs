@@ -64,10 +64,16 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+
         if (_typingCoroutine != null)
             StopCoroutine(_typingCoroutine);
 
         _typingCoroutine = StartCoroutine(TypeText(_currentInkStory.Continue()));
+
+        if (_currentInkStory.currentTags.Contains("Player"))
+        {
+            SpeakerNameText.SetText("Player");
+        }
     }
 
     private IEnumerator TypeText(string text)
@@ -98,6 +104,7 @@ public class DialogueManager : MonoBehaviour
 
         DialogueText.maxVisibleCharacters = int.MaxValue;
         _isTyping = false;
+
     }
 
     private void ShowDialogPanel()
