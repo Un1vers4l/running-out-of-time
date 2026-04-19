@@ -6,8 +6,8 @@ using Ink.Runtime;
 public class InkController
 {
   public Story CurrentStory;
-  public event Action<string> OnItemAdded;
-  public event Action<string, bool> OnGameSwitchUpdated;
+  public event Action<string> OnAddItem;
+  public event Action<string, bool> OnUpdateGameSwitch;
   public event Func<string, bool> RequestGameSwitchState;
 
   private readonly Dictionary<string, Action<string>> _actionRegistry;
@@ -22,8 +22,8 @@ public class InkController
   {
     _actionRegistry = new Dictionary<string, Action<string>>()
     {
-      { "AddInventoryItem", (payload) => OnItemAdded?.Invoke(payload) },
-      { "SetGameSwitchTrue", (payload) => OnGameSwitchUpdated?.Invoke(payload, true) },
+      { "AddInventoryItem", (payload) => OnAddItem?.Invoke(payload) },
+      { "SetGameSwitchTrue", (payload) => OnUpdateGameSwitch?.Invoke(payload, true) },
     };
 
     _queryRegistry = new Dictionary<string, Func<string, object>>()

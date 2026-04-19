@@ -8,13 +8,13 @@ public class GameSwitchController : MonoBehaviour
 
   void Start()
   {
-    DialogueManager.Instance.InkController.OnGameSwitchUpdated += HandleSetSwitchStateFromInk;
+    DialogueManager.Instance.InkController.OnUpdateGameSwitch += HandleSetSwitchStateFromInk;
     DialogueManager.Instance.InkController.RequestGameSwitchState += HandleGetSwitchStateFromInk;
   }
 
   void OnDisable()
   {
-    DialogueManager.Instance.InkController.OnGameSwitchUpdated -= HandleSetSwitchStateFromInk;
+    DialogueManager.Instance.InkController.OnUpdateGameSwitch -= HandleSetSwitchStateFromInk;
     DialogueManager.Instance.InkController.RequestGameSwitchState -= HandleGetSwitchStateFromInk;
   }
 

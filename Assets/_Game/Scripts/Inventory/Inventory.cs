@@ -9,6 +9,16 @@ public class Inventory : MonoBehaviour
 
     public event Action OnInventoryChanged;
 
+    void Start()
+    {
+        DialogueManager.Instance.InkController.OnAddItem += HandleAddItemFromInk;
+    }
+
+    void OnDisable()
+    {
+        DialogueManager.Instance.InkController.OnAddItem -= HandleAddItemFromInk;
+    }
+
     public bool AddItem(ItemData data)
     {
         if (items.Count >= maxSlots)
@@ -23,5 +33,12 @@ public class Inventory : MonoBehaviour
     {
         if (items.Remove(data))
             OnInventoryChanged?.Invoke();
+    }
+
+    private void HandleAddItemFromInk(string itemName)
+    {
+        // TODO
+        // probably get all items and find the right one!? idk
+        Debug.Log("Add item from ink: " + itemName);
     }
 }
