@@ -7,6 +7,8 @@ using Ink.Runtime;
 public class InkController
 {
   public Story CurrentStory;
+  public event Action<string> OnItemAdded;
+  public event Action<string> OnGameSwitchUpdated;
 
   // private Dictionary<string, Action<string>> _commandRegistry = new Dictionary<string, Action<string>>();
   private Dictionary<string, Action<string>> _commandRegistry;
@@ -19,7 +21,8 @@ public class InkController
   {
     _commandRegistry = new Dictionary<string, Action<string>>()
     {
-        { "AddInventoryItem", (payload) => AddItemMock(payload) }
+        { "AddInventoryItem", (payload) => OnItemAdded.Invoke(payload) },
+        { "SetGameSwitch", (payload) => OnGameSwitchUpdated.Invoke(payload) }
     };
   }
 
@@ -62,11 +65,5 @@ public class InkController
     CurrentStory.UnbindExternalFunction(INK_FUNCTION_BIND_NAME);
     CurrentStory = null;
     _currentDialoguePartner = "";
-  }
-
-
-  private void AddItemMock(string payload)
-  {
-    Debug.Log("You received an item! It is: " + payload);
   }
 }
