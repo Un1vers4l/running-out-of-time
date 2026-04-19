@@ -1,5 +1,8 @@
-EXTERNAL ExecuteFunction(commandName, payload)
+EXTERNAL ExecuteAction(commandName, payload)
+EXTERNAL ExecuteQuery(commandName, payload)
 
-// Falback for Ink-Editor
-=== function ExecuteFunction(commandName, payload) ===
+// Falbacks for Ink-Editor
+=== function ExecuteAction(commandName, payload) ===
+~ return
+=== function ExecuteQuery(commandName, payload) ===
 ~ return

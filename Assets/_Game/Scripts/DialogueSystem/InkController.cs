@@ -3,33 +3,40 @@ using System.Collections.Generic;
 using UnityEngine;
 using Ink.Runtime;
 
-
 public class InkController
 {
   public Story CurrentStory;
   public event Action<string> OnItemAdded;
-  public event Action<string> OnGameSwitchUpdated;
+  public event Action<string, bool> OnGameSwitchUpdated;
+  public event Func<string, bool> RequestGameSwitchState;
 
-  // private Dictionary<string, Action<string>> _commandRegistry = new Dictionary<string, Action<string>>();
-  private Dictionary<string, Action<string>> _commandRegistry;
+  private readonly Dictionary<string, Action<string>> _actionRegistry;
+  private readonly Dictionary<string, Func<string, object>> _queryRegistry;
   private string _currentDialoguePartner;
 
-  private readonly string INK_FUNCTION_BIND_NAME = "ExecuteFunction";
+  private readonly string INK_ACTION_BIND_NAME = "ExecuteAction";
+  private readonly string INK_QUERY_BIND_NAME = "ExecuteQuery";
   private readonly string INK_TAG_PLAYER_SPEAKS = "Player";
 
   public InkController()
   {
-    _commandRegistry = new Dictionary<string, Action<string>>()
+    _actionRegistry = new Dictionary<string, Action<string>>()
     {
-        { "AddInventoryItem", (payload) => OnItemAdded.Invoke(payload) },
-        { "SetGameSwitch", (payload) => OnGameSwitchUpdated.Invoke(payload) }
+      { "AddInventoryItem", (payload) => OnItemAdded?.Invoke(payload) },
+      { "SetGameSwitchTrue", (payload) => OnGameSwitchUpdated?.Invoke(payload, true) },
+    };
+
+    _queryRegistry = new Dictionary<string, Func<string, object>>()
+    {
+      { "GetGameSwitchState", (payload) => RequestGameSwitchState?.Invoke(payload) },
     };
   }
 
   public void InitNewStory(string dialoguePartner, TextAsset storyJSON)
   {
     CurrentStory = new Story(storyJSON.text);
-    CurrentStory.BindExternalFunction(INK_FUNCTION_BIND_NAME, (Action<string, string>)ExecuteFunction);
+    CurrentStory.BindExternalFunction(INK_ACTION_BIND_NAME, (Action<string, string>)ExecuteActionHandler);
+    CurrentStory.BindExternalFunction(INK_QUERY_BIND_NAME, (string commandName, string payload) => { return ExecuteQueryHandler(commandName, payload); });
 
     _currentDialoguePartner = dialoguePartner;
   }
@@ -48,21 +55,36 @@ public class InkController
     return new NextDialogueLineData(nextLine, currentSpeaker);
   }
 
-  private void ExecuteFunction(string commandName, string payload)
+  private void ExecuteActionHandler(string commandName, string payload)
   {
-    if (_commandRegistry.TryGetValue(commandName, out Action<string> action))
+    if (_actionRegistry.TryGetValue(commandName, out Action<string> action))
     {
       action.Invoke(payload);
     }
     else
     {
-      Debug.LogWarning($"InkController.ExecuteFunction: Command '{commandName}' not found in registry.");
+      Debug.LogWarning($"InkController.ExecuteActionHandler: Command '{commandName}' not found in registry.");
     }
+  }
+
+  private object ExecuteQueryHandler(string commandName, string payload)
+  {
+    if (_queryRegistry.TryGetValue(commandName, out Func<string, object> query))
+    {
+      return query.Invoke(payload);
+    }
+    else
+    {
+      Debug.LogWarning($"InkController.ExecuteQueryHandler: Command '{commandName}' not found in registry.");
+    }
+
+    return null;
   }
 
   private void DismissCurrentStory()
   {
-    CurrentStory.UnbindExternalFunction(INK_FUNCTION_BIND_NAME);
+    CurrentStory.UnbindExternalFunction(INK_ACTION_BIND_NAME);
+    CurrentStory.UnbindExternalFunction(INK_QUERY_BIND_NAME);
     CurrentStory = null;
     _currentDialoguePartner = "";
   }

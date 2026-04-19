@@ -1,7 +1,6 @@
 INCLUDE ../../global.ink
 
-Ich mag Moneten!
-~ExecuteFunction("AddInventoryItem", "Wasser")
-Magst du auch Moneten?
+Ich mag Moneten! Magst du auch Moneten?
+{ExecuteAction("SetGameSwitchTrue", "ReleasedCat")}
 Nicht wirklich... #Player
 Pff, pathetic.

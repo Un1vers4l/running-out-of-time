@@ -20,9 +20,9 @@ public class DialogueManager : MonoBehaviour
     public InputActionReference dialogueAdvanceAction;
     public static event Action OnDialogueStarted;
     public static event Action OnDialogueEnded;
+    public InkController InkController = new();
 
     private CanvasGroup _canvasGroup;
-    private InkController _inkController;
 
     private bool _isDialoguePlaying = false;
     public bool IsDialoguePlaying => _isDialoguePlaying;
@@ -34,7 +34,6 @@ public class DialogueManager : MonoBehaviour
         if (Instance == null) { Instance = this; }
         else { Destroy(gameObject); }
 
-        _inkController = new();
         _canvasGroup = GetComponent<CanvasGroup>();
         HideDialogPanel();
     }
@@ -54,7 +53,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(string speakerName, TextAsset inkDialogJSON)
     {
-        _inkController.InitNewStory(speakerName, inkDialogJSON);
+        InkController.InitNewStory(speakerName, inkDialogJSON);
         ShowDialogPanel();
         SpeakerNameText.SetText(speakerName);
         ContinueDialogue();
@@ -62,7 +61,8 @@ public class DialogueManager : MonoBehaviour
 
     private void ContinueDialogue()
     {
-        NextDialogueLineData nextDialogueLineData = _inkController.ContinueStory();
+        NextDialogueLineData nextDialogueLineData = InkController.ContinueStory();
+
         if (nextDialogueLineData == null)
         {
             HideDialogPanel();
