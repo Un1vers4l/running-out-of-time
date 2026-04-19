@@ -29,8 +29,6 @@ public class DialogueManager : MonoBehaviour
     private bool _isTyping;
     private Coroutine _typingCoroutine;
 
-
-
     void Awake()
     {
         if (Instance == null) { Instance = this; }

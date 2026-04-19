@@ -15,7 +15,6 @@ public class InkController
   private readonly string INK_FUNCTION_BIND_NAME = "ExecuteFunction";
   private readonly string INK_TAG_PLAYER_SPEAKS = "Player";
 
-
   public InkController()
   {
     _commandRegistry = new Dictionary<string, Action<string>>()
