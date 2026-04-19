@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295f8f9fa7d1e4b19b86ac2e0aa00579, type: 3}
   m_Name: LoverCultist
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Data
-  displayName: Cat Cultist
-  robeColor: {r: 0.83824116, g: 1, b: 0.36320752, a: 1}
+  displayName: Lover Cultist
+  robeColor: {r: 1, g: 0.36470592, b: 0.76325667, a: 1}
   dialogJSON: {fileID: 4900000, guid: aa9e818eccd8740a3b62ceb2f3fd14bd, type: 3}

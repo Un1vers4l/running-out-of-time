@@ -1,5 +1,5 @@
-EXTERNAL ExecuteCommand(commandName, payload)
+EXTERNAL ExecuteFunction(commandName, payload)
 
 // Falback for Ink-Editor
-=== function ExecuteCommand(commandName, payload) ===
+=== function ExecuteFunction(commandName, payload) ===
 ~ return
