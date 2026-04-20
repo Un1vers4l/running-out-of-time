@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-// using DialogueManager;
+
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator), typeof(SpriteRenderer))]
 public class PlayerMovement : MonoBehaviour
 {
