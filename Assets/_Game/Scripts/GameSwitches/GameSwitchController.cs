@@ -40,12 +40,11 @@ public class GameSwitchController : MonoBehaviour
 
   private bool HandleGetSwitchStateFromInk(string key)
   {
-    Debug.Log("Getting key....");
     if (!Enum.TryParse(key, out GameSwitches switchKey))
     {
       throw new ArgumentException($"GameSwitchController.HandleGetSwitchStateFromInk: Unknown switch name '{key}'");
     }
-    Debug.Log("get key: " + GetSwitchState(switchKey));
+    Debug.Log($"Get State for key '{key}': ${GetSwitchState(switchKey)}");
 
     return GetSwitchState(switchKey);
   }
@@ -57,6 +56,7 @@ public class GameSwitchController : MonoBehaviour
       Debug.LogWarning($"GameSwitchController.HandleSetSwitchStateFromInk: Unknown switch name {key}");
       return;
     }
+    Debug.Log($"Set State for key '{key}' to '${state}");
 
     SetSwitchState(switchKey, state);
   }
