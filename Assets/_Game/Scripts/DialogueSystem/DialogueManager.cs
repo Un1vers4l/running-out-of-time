@@ -111,7 +111,7 @@ public class DialogueManager : MonoBehaviour
     {
         _isDialoguePlaying = true;
         dialogueAdvanceAction.action.Enable();
-        OnDialogueStarted.Invoke();
+        OnDialogueStarted?.Invoke();
         _canvasGroup.alpha = 1f;
         _canvasGroup.interactable = true;
         _canvasGroup.blocksRaycasts = true;
@@ -124,7 +124,7 @@ public class DialogueManager : MonoBehaviour
     {
         _isDialoguePlaying = false;
         dialogueAdvanceAction.action.Disable();
-        OnDialogueEnded.Invoke();
+        OnDialogueEnded?.Invoke();
         _canvasGroup.alpha = 0f;
         _canvasGroup.interactable = false;
         _canvasGroup.blocksRaycasts = false;
