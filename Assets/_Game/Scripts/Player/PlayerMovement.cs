@@ -43,16 +43,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        bool isPlaying = GameTimerStateMachine.Instance != null
-            && GameTimerStateMachine.Instance.State == GameTimerStateMachine.GameState.Playing;
-        // if (!_canPlayerMove || !isPlaying) // TODO: Change back!!
-        if (!_canPlayerMove)
+        if (!_canPlayerMove) return;
+        if (GameManager.Instance.State != GameState.Playing)
         {
-            _canPlayerMove = false;
+            _moveVector = Vector2.zero;
             return;
         }
-        ;
-
 
         _moveVector = moveAction.action.ReadValue<Vector2>();
         UpdateSpriteDirectionAndAnimation();
