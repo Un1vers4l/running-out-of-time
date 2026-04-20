@@ -14,7 +14,7 @@ public class HotbarVisibility : MonoBehaviour
     {
         bool shouldHide =
             (DialogueManager.Instance != null && DialogueManager.Instance.IsDialoguePlaying) ||
-            (GameTimerStateMachine.Instance != null && GameTimerStateMachine.Instance.IsStartScreenShowing);
+            (GameManager.Instance != null && GameManager.Instance.State != GameState.Playing);
 
         _canvasGroup.alpha = shouldHide ? 0f : 1f;
         _canvasGroup.blocksRaycasts = !shouldHide;
