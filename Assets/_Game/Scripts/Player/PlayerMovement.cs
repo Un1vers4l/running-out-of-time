@@ -44,13 +44,8 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         if (!_canPlayerMove) return;
-        if (GameManager.Instance.State != GameState.Playing)
-        {
-            _moveVector = Vector2.zero;
-            return;
-        }
 
-        _moveVector = moveAction.action.ReadValue<Vector2>();
+        _moveVector = GameManager.Instance.State == GameState.Playing ? moveAction.action.ReadValue<Vector2>() : Vector2.zero;
         UpdateSpriteDirectionAndAnimation();
     }
 
