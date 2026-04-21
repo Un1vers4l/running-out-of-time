@@ -12,11 +12,14 @@ public class InkController
 
   private readonly Dictionary<string, Action<string>> _actionRegistry;
   private readonly Dictionary<string, Func<string, object>> _queryRegistry;
-  private string _currentDialoguePartner;
+  private string _playerSpeakerDisplayName = "Player";
+  private string _defaultSpeakerDisplayName;
+  private string _currentSpeakerTag;
 
   private readonly string INK_ACTION_BIND_NAME = "ExecuteAction";
   private readonly string INK_QUERY_BIND_NAME = "ExecuteQuery";
-  private readonly string INK_TAG_PLAYER_SPEAKS = "Player";
+  private readonly string INK_TAG_PLAYER_SPEAKER = "Speaker_Player";
+  private readonly string INK_TAG_DEFAULT_SPEAKER = "Speaker_Default";
 
   public InkController()
   {
@@ -30,6 +33,8 @@ public class InkController
     {
       { "GetGameSwitchState", (payload) => RequestGameSwitchState?.Invoke(payload) },
     };
+
+    _currentSpeakerTag = INK_TAG_DEFAULT_SPEAKER;
   }
 
   public void InitNewStory(string dialoguePartner, TextAsset storyJSON)
@@ -38,7 +43,7 @@ public class InkController
     CurrentStory.BindExternalFunction(INK_ACTION_BIND_NAME, (Action<string, string>)ExecuteActionHandler);
     CurrentStory.BindExternalFunction(INK_QUERY_BIND_NAME, (string commandName, string payload) => { return ExecuteQueryHandler(commandName, payload); });
 
-    _currentDialoguePartner = dialoguePartner;
+    _defaultSpeakerDisplayName = dialoguePartner;
   }
 
   public NextDialogueLineData ContinueStory()
@@ -50,7 +55,13 @@ public class InkController
     }
 
     string nextLine = CurrentStory.Continue();
-    string currentSpeaker = CurrentStory.currentTags.Contains(INK_TAG_PLAYER_SPEAKS) ? INK_TAG_PLAYER_SPEAKS : _currentDialoguePartner;
+    string speakerTag = CurrentStory.currentTags.Find(tag => tag == INK_TAG_PLAYER_SPEAKER || tag == INK_TAG_DEFAULT_SPEAKER);
+    if (speakerTag != null)
+    {
+      _currentSpeakerTag = speakerTag;
+    }
+
+    string currentSpeaker = _currentSpeakerTag == INK_TAG_PLAYER_SPEAKER ? _playerSpeakerDisplayName : _defaultSpeakerDisplayName;
 
     return new NextDialogueLineData(nextLine, currentSpeaker);
   }
@@ -86,6 +97,7 @@ public class InkController
     CurrentStory.UnbindExternalFunction(INK_ACTION_BIND_NAME);
     CurrentStory.UnbindExternalFunction(INK_QUERY_BIND_NAME);
     CurrentStory = null;
-    _currentDialoguePartner = "";
+    _defaultSpeakerDisplayName = "";
+    _currentSpeakerTag = "";
   }
 }

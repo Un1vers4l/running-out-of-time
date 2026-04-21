@@ -5,4 +5,4 @@ EXTERNAL ExecuteQuery(commandName, payload)
 === function ExecuteAction(commandName, payload) ===
 ~ return
 === function ExecuteQuery(commandName, payload) ===
-~ return
+~ return false
