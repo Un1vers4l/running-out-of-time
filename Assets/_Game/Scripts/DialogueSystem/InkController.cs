@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using Ink.Runtime;
+using System.Linq;
 
 public class InkController
 {
@@ -60,10 +61,17 @@ public class InkController
     {
       _currentSpeakerTag = speakerTag;
     }
+    List<string> choices = CurrentStory.currentChoices.Select(choice => choice.text).ToList();
 
     string currentSpeaker = _currentSpeakerTag == INK_TAG_PLAYER_SPEAKER ? _playerSpeakerDisplayName : _defaultSpeakerDisplayName;
 
-    return new NextDialogueLineData(nextLine, currentSpeaker);
+    return new NextDialogueLineData(nextLine, currentSpeaker, choices);
+  }
+
+  private void SelectChoiceAtIndex(int index)
+  {
+    // 4. Choice an Ink übergeben
+    CurrentStory.ChooseChoiceIndex(index);
   }
 
   private void ExecuteActionHandler(string commandName, string payload)

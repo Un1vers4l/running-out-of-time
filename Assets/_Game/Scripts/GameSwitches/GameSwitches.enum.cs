@@ -11,6 +11,7 @@ public enum GameSwitches
   GotItem_Beer,
   Resolved_PartyCultist,
 
+
   // Cat cultist line
   TalkedTo_CatCultist,
   ReleasedCat,
@@ -19,8 +20,9 @@ public enum GameSwitches
 
   // Shop Assistant line
   TalkedTo_ShopAssistant,
+  Resolved_ShopAssistantCultist,
   GotItem_LetterForLover,
-
+  BroughtLetterToLover,
 
   UnlockedRoomBehindFireplace,
   GotItem_RitualBlood,

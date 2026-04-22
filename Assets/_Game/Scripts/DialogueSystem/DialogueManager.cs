@@ -1,6 +1,6 @@
 using System;
 using System.Collections;
-
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -14,6 +14,7 @@ public class DialogueManager : MonoBehaviour
     [Header("UI Components")]
     public TextMeshProUGUI SpeakerNameText;
     public TextMeshProUGUI DialogueText;
+    public ChoiceController ChoiceController;
 
     [Header("Typewriter")]
     [SerializeField] private float charactersPerSecond = 40f;
@@ -69,11 +70,26 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        if (_typingCoroutine != null)
-            StopCoroutine(_typingCoroutine);
+        if (_typingCoroutine != null) StopCoroutine(_typingCoroutine);
 
-        SpeakerNameText.SetText(nextDialogueLineData.Speaker);
-        _typingCoroutine = StartCoroutine(TypeText(nextDialogueLineData.Text));
+        if (nextDialogueLineData.Choices.Count > 0)
+        {
+            DialogueText.gameObject.SetActive(false);
+            ChoiceController.SetupAndShowChoices(nextDialogueLineData.Choices);
+        }
+        else
+        {
+            DialogueText.gameObject.SetActive(true);
+            ChoiceController.HideChoices();
+            _typingCoroutine = StartCoroutine(TypeText(nextDialogueLineData.Text));
+            SpeakerNameText.SetText(nextDialogueLineData.Speaker);
+        }
+    }
+
+    public void SelectChoice(int choiceIndex)
+    {
+        InkController.CurrentStory.ChooseChoiceIndex(choiceIndex);
+        ContinueDialogue();
     }
 
     private IEnumerator TypeText(string text)
