@@ -41,8 +41,8 @@ public class InkController
   public void InitNewStory(string dialoguePartner, TextAsset storyJSON)
   {
     CurrentStory = new Story(storyJSON.text);
-    CurrentStory.BindExternalFunction(INK_ACTION_BIND_NAME, (Action<string, string>)ExecuteActionHandler);
-    CurrentStory.BindExternalFunction(INK_QUERY_BIND_NAME, (string commandName, string payload) => { return ExecuteQueryHandler(commandName, payload); });
+    CurrentStory.BindExternalFunction(INK_ACTION_BIND_NAME, (Action<string, string>)HandleExecuteAction);
+    CurrentStory.BindExternalFunction(INK_QUERY_BIND_NAME, (string commandName, string payload) => { return HandleExecuteQuery(commandName, payload); });
 
     _defaultSpeakerDisplayName = dialoguePartner;
   }
@@ -61,14 +61,17 @@ public class InkController
     {
       _currentSpeakerTag = speakerTag;
     }
-    List<string> choices = CurrentStory.currentChoices.Select(choice => choice.text).ToList();
+    List<string> choices = CurrentStory.currentChoices
+      .Where(choice => choice.text.Length > 0)
+      .Select(choice => choice.text)
+      .ToList();
 
     string currentSpeaker = _currentSpeakerTag == INK_TAG_PLAYER_SPEAKER ? _playerSpeakerDisplayName : _defaultSpeakerDisplayName;
 
     return new NextDialogueLineData(nextLine, currentSpeaker, choices);
   }
 
-  private void ExecuteActionHandler(string commandName, string payload)
+  private void HandleExecuteAction(string commandName, string payload)
   {
     if (_actionRegistry.TryGetValue(commandName, out Action<string> action))
     {
@@ -76,11 +79,11 @@ public class InkController
     }
     else
     {
-      Debug.LogWarning($"InkController.ExecuteActionHandler: Command '{commandName}' not found in registry.");
+      Debug.LogWarning("InkController.HandleExecuteAction: Command '{commandName}' not found in registry.");
     }
   }
 
-  private object ExecuteQueryHandler(string commandName, string payload)
+  private object HandleExecuteQuery(string commandName, string payload)
   {
     if (_queryRegistry.TryGetValue(commandName, out Func<string, object> query))
     {
@@ -88,7 +91,7 @@ public class InkController
     }
     else
     {
-      Debug.LogWarning($"InkController.ExecuteQueryHandler: Command '{commandName}' not found in registry.");
+      Debug.LogWarning($"InkController.HandleExecuteQuery: Command '{commandName}' not found in registry.");
     }
 
     return null;

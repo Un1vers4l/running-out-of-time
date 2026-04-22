@@ -13,6 +13,7 @@ public class ChoiceController : MonoBehaviour
   public List<ChoiceText> choiceTextElements;
 
   private CanvasGroup _canvasGroup;
+  private List<string> _currentChoices;
   private int _currentSelectedIndex = 0;
   private bool _isChoiceModeActive = false;
 
@@ -34,11 +35,12 @@ public class ChoiceController : MonoBehaviour
 
   public void SetupAndShowChoices(List<string> choices)
   {
+    _currentChoices = choices;
     for (int i = 0; i < choiceTextElements.Count; i++)
     {
       string text = i < choices.Count ? choices[i] : "";
-      bool isActive = i < choices.Count;
-      choiceTextElements[i].Setup(text, i, isActive);
+      bool isTextElementActive = i < choices.Count && text.Length > 0;
+      choiceTextElements[i].Setup(text, i, isTextElementActive);
     }
 
     _canvasGroup.alpha = 1;
@@ -55,19 +57,22 @@ public class ChoiceController : MonoBehaviour
 
   private void HandleNavigationInput()
   {
+    if (!selectionMoveAction.action.WasPressedThisFrame()) return;
     bool indexChanged = false;
-    if (selectionMoveAction.action.ReadValue<Vector2>() == Vector2.up)
+    Vector2 inputDirection = selectionMoveAction.action.ReadValue<Vector2>();
+
+    if (inputDirection == Vector2.up)
     {
       _currentSelectedIndex--;
       if (_currentSelectedIndex < 0)
-        _currentSelectedIndex = choiceTextElements.Count - 1; // Wrap around
+        _currentSelectedIndex = _currentChoices.Count - 1; // Wrap around
 
       indexChanged = true;
     }
-    else if (selectionMoveAction.action.ReadValue<Vector2>() == Vector2.down)
+    else if (inputDirection == Vector2.down)
     {
       _currentSelectedIndex++;
-      if (_currentSelectedIndex >= choiceTextElements.Count)
+      if (_currentSelectedIndex >= _currentChoices.Count)
         _currentSelectedIndex = 0; // Wrap around
 
       indexChanged = true;
@@ -94,26 +99,3 @@ public class ChoiceController : MonoBehaviour
     }
   }
 }
-
-// {
-//   public List<ChoiceText> DialogueChoiceTexts;
-
-//   public 
-
-//   public void Setup(int index, string text)
-//   {
-//     choiceIndex = index;
-//     GetComponent<TextMeshProUGUI>().text = text;
-//   }
-
-//   public void OnPointerClick(PointerEventData eventData)
-//   {
-//     Debug.Log("Select choice" + choiceIndex);
-//     DialogueManager.Instance.SelectChoice(choiceIndex);
-//   }
-
-//   public SelectChoice()
-//   {
-
-//   }
-// }
