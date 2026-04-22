@@ -89,7 +89,6 @@ public class DialogueManager : MonoBehaviour
     public void SelectChoice(int choiceIndex)
     {
         InkController.CurrentStory.ChooseChoiceIndex(choiceIndex);
-        ContinueDialogue();
     }
 
     private IEnumerator TypeText(string text)

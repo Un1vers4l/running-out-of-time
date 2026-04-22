@@ -39,7 +39,6 @@ Make it quick.
     * [Can I have a free beer?]
         Investigation's already getting tough, huh?
         ~ExecuteAction("AddInventoryItem", "Beer")
-        SetGameSwitchTrue
         I guess it's your lucky day because the less I carry the better.
         -> questions
     * -> DONE

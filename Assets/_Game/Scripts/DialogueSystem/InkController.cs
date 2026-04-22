@@ -68,12 +68,6 @@ public class InkController
     return new NextDialogueLineData(nextLine, currentSpeaker, choices);
   }
 
-  private void SelectChoiceAtIndex(int index)
-  {
-    // 4. Choice an Ink übergeben
-    CurrentStory.ChooseChoiceIndex(index);
-  }
-
   private void ExecuteActionHandler(string commandName, string payload)
   {
     if (_actionRegistry.TryGetValue(commandName, out Action<string> action))
