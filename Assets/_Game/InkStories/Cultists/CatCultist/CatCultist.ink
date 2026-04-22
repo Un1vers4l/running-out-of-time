@@ -1,17 +1,22 @@
 INCLUDE ../../global.ink
-VAR talkedTo_catCultist = false
-VAR releasedCat = false
-VAR catRanAway = false
+VAR TalkedTo_CatCultist = false
+VAR ReleasedCat = false
+VAR CatRanAway = false
+VAR Resolved_CatCultist = false
 
-~releasedCat = ExecuteQuery("GetGameSwitchState", "ReleasedCat")
-~talkedTo_catCultist = ExecuteQuery("GetGameSwitchState", "TalkedTo_CatCultist")
-~catRanAway = ExecuteQuery("GetGameSwitchState", "CatRanAway")
+
+~ReleasedCat = ExecuteQuery("GetGameSwitchState", "ReleasedCat")
+~TalkedTo_CatCultist = ExecuteQuery("GetGameSwitchState", "TalkedTo_CatCultist")
+~CatRanAway = ExecuteQuery("GetGameSwitchState", "CatRanAway")
+~Resolved_CatCultist = ExecuteQuery("GetGameSwitchState", "Resolved_CatCultist")
 
 
 {
-	- releasedCat:
+	- Resolved_CatCultist:
+	    -> resolved_quest
+	- ReleasedCat:
 		->released_cat
-	- talkedTo_catCultist:
+	- TalkedTo_CatCultist:
 		-> after_first_talk
 	- else:
 		-> first_talk
@@ -40,9 +45,17 @@ Sniff... My poor baby! Just where could she be?
 I got your cat.
 (place cat into scene)
 Are you insane?? That's not my cat!
-This place is really something! First the Shopkeeper's assistant asks me if I have a cat hair to spare and now you bring me this dirty stray.
-Is there really no one here who sees what's really important!?
+This place is really something! First that Shopkeeper's son asks me if I have a cat hair to spare and now you bring me this dirty stray.
+What's wrong with you all?
 (Cat runs away)
 ~ExecuteAction("SetGameSwitchTrue", "CatRanAway")
 See!? My darling would never take off like that before kissing me goodbye.
+Where did that filthy stray run off to anyway?
+Oh this is all too much.
+~ExecuteAction("SetGameSwitchTrue", "Resolved_CatCultist")
+Please excuse me, I have to lie down and cry now.
 -> END
+
+=== resolved_quest ===
+(excessive sobbing)
+-> DONE

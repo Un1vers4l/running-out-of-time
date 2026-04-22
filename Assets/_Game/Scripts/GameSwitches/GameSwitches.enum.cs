@@ -15,8 +15,8 @@ public enum GameSwitches
   // Cat cultist line
   TalkedTo_CatCultist,
   ReleasedCat,
-  Resolved_CatCultist,
   CatRanAway,
+  Resolved_CatCultist,
 
   // Shop Assistant line
   TalkedTo_ShopAssistant,
