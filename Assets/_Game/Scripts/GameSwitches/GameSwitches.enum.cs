@@ -11,7 +11,6 @@ public enum GameSwitches
   GotItem_Beer,
   Resolved_PartyCultist,
 
-
   // Cat cultist line
   TalkedTo_CatCultist,
   ReleasedCat,
@@ -24,7 +23,21 @@ public enum GameSwitches
   GotItem_LetterForLover,
   BroughtLetterToLover,
 
-  UnlockedRoomBehindFireplace,
-  GotItem_RitualBlood,
+  // Chimney line
+  InvestigatedChimney,
+  Got_Item_EmptyBeerJug,
+  GotItem_CleaningWaterInAJug,
+  UnlockedRoomBehindChimney,
   GotItem_CatHair,
+
+  // Cleaning-Crew
+  TalkedTo_CleaningCrew,
+  TalkedTo_CleaningCrewAfterChimneyInvestigation,
+  CleaningCrewLuredAway,
+
+  // DeathWishCultist
+  TalkedTo_DeathWishCultist,
+  DeathWishCultistReadyForSacrifice,
+  DeathWishCultistDead,
+  GotItem_RitualBlood,
 }

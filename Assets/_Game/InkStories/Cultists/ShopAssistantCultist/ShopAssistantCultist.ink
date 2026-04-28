@@ -41,7 +41,8 @@ Make it quick.
         ~ExecuteAction("AddInventoryItem", "Beer")
         I guess it's your lucky day because the less I carry the better.
         -> questions
-    * -> DONE
+    * -> first_talk.resume
+=resume
 ~ExecuteAction("SetGameSwitchTrue", "TalkedTo_ShopAssistant")
 That's all for now. #Speaker_Player
 ->DONE

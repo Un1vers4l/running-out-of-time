@@ -82,8 +82,9 @@ public class DialogueManager : MonoBehaviour
             DialogueText.gameObject.SetActive(true);
             ChoiceController.HideChoices();
             _typingCoroutine = StartCoroutine(TypeText(nextDialogueLineData.Text));
-            SpeakerNameText.SetText(nextDialogueLineData.Speaker);
         }
+
+        SpeakerNameText.SetText(nextDialogueLineData.Speaker);
     }
 
     public void SelectChoice(int choiceIndex)
