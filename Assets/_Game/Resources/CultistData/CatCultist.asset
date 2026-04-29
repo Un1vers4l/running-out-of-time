@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Data
   displayName: Cat Cultist
   robeColor: {r: 0.83824116, g: 1, b: 0.36320752, a: 1}
-  dialogJSON: {fileID: 4900000, guid: 084f7f64b548d477f9f551ef13989f19, type: 3}
+  dialogueJSON: {fileID: 4900000, guid: 084f7f64b548d477f9f551ef13989f19, type: 3}

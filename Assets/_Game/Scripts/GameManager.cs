@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
 
     SwitchController = gameObject.AddComponent<GameSwitchController>();
     State = GameState.NotStarted;
+    StartGame();
   }
 
   void Update()

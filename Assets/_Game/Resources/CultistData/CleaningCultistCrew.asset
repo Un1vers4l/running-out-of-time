@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Data
   displayName: Cleaning Cultist
   robeColor: {r: 0.31764707, g: 0.98039216, b: 0.9411765, a: 1}
-  dialogJSON: {fileID: 4900000, guid: 3c8eafbc6b7cf44eb9e60c27bcae7042, type: 3}
+  dialogueJSON: {fileID: 4900000, guid: 3c8eafbc6b7cf44eb9e60c27bcae7042, type: 3}

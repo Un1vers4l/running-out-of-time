@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49b81095b3b6647878ba1586a9c79c60, type: 3}
   m_Name: WaterBarrel
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemName: Cat
-  sprite: {fileID: -8345435589167100473, guid: 0b6aba1bfea614e2f88a0c4d082ec9a2, type: 3}
+  itemName: Water Barrel
+  sprite: {fileID: -3541534081822258182, guid: 7073da8d650554506a55392940378511, type: 3}
   animator: {fileID: 0}
-  dialogueJSON: {fileID: 0}
+  dialogueJSON: {fileID: 4900000, guid: 944908c93fac64dbb90912cef408b45b, type: 3}

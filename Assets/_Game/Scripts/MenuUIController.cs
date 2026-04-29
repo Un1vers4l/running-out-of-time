@@ -25,7 +25,7 @@ public class MenuUIController : MonoBehaviour
         SetEndScreenVisibilty(false);
         SetStartScreenVisibilty(false);
 
-        if (GameManager.Instance.State == GameState.NotStarted) SetStartScreenVisibilty(true);
+        // if (GameManager.Instance.State == GameState.NotStarted) SetStartScreenVisibilty(true);
     }
 
     private void Update()

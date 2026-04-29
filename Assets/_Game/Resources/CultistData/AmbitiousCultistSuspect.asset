@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC_Data
   displayName: Ambitious Cultist
   robeColor: {r: 0.8018868, g: 0.08335693, b: 0, a: 1}
-  dialogJSON: {fileID: 4900000, guid: bd46df5ebd44f4adc8fb0e84a9ac3dd2, type: 3}
+  dialogueJSON: {fileID: 4900000, guid: bd46df5ebd44f4adc8fb0e84a9ac3dd2, type: 3}
