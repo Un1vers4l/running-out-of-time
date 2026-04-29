@@ -52,9 +52,9 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void StartDialogue(string speakerName, TextAsset inkDialogJSON)
+    public void StartDialogue(string speakerName, TextAsset inkDialogueJSON)
     {
-        InkController.InitNewStory(speakerName, inkDialogJSON);
+        InkController.InitNewStory(speakerName, inkDialogueJSON);
         ShowDialogPanel();
         SpeakerNameText.SetText(speakerName);
         ContinueDialogue();

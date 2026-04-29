@@ -4,5 +4,7 @@ using UnityEngine;
 public class ItemData : ScriptableObject
 {
     public string itemName;
-    public Sprite icon;
+    public Sprite spriteToRender;
+    public Animator animator;
+    public TextAsset dialogueJSON;
 }

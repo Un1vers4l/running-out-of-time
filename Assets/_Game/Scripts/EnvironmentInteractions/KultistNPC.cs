@@ -20,17 +20,17 @@ public class KultistNPC : InteractableBase
     _spriteRenderer.color = npcData.robeColor;
   }
 
+  public void SetIsLyingDown(bool isLyingDown)
+  {
+    _isLyingDown = isLyingDown;
+    _animator.SetBool(_lyingDownAnimationTriggerName, isLyingDown);
+  }
+
   protected override void ExecuteInteraction(GameObject interactionSource)
   {
     if (!npcData) return;
 
-    DialogueManager.Instance.StartDialogue(npcData.displayName, npcData.dialogJSON);
-  }
-
-  private void SetIsLyingDown(bool isLyingDown)
-  {
-    _isLyingDown = isLyingDown;
-    _animator.SetBool(_lyingDownAnimationTriggerName, isLyingDown);
+    DialogueManager.Instance.StartDialogue(npcData.displayName, npcData.dialogueJSON);
   }
 
   protected override void PlayInteractionSound()
