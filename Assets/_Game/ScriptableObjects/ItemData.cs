@@ -1,10 +1,10 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewItem", menuName = "Inventory/Item")]
+[CreateAssetMenu(menuName = "Sriptable Objects/Item Data")]
 public class ItemData : ScriptableObject
 {
     public string itemName;
-    public Sprite spriteToRender;
+    public Sprite sprite;
     public Animator animator;
     public TextAsset dialogueJSON;
 }

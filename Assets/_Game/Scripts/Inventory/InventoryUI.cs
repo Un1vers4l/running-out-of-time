@@ -29,7 +29,7 @@ public class InventoryUI : MonoBehaviour
         foreach (ItemData item in inventory.items)
         {
             GameObject slot = Instantiate(slotPrefab, slotContainer);
-            slot.GetComponentsInChildren<Image>()[1].sprite = item.icon;
+            slot.GetComponentsInChildren<Image>()[1].sprite = item.sprite;
         }
     }
 }

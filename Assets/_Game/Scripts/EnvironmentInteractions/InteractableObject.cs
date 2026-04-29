@@ -13,9 +13,9 @@ public class InteractableObject : InteractableBase
     _spriteRenderer = GetComponent<SpriteRenderer>();
     if (!itemData) return;
 
-    if (itemData.spriteToRender)
+    if (itemData.sprite)
     {
-      _spriteRenderer.sprite = itemData.spriteToRender;
+      _spriteRenderer.sprite = itemData.sprite;
     }
 
     if (itemData.animator)
