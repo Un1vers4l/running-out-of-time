@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Cultist_Lying_Down
+  m_Name: Cat_Idle
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,7 +21,7 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -22816798605376139, guid: 70ab665535c1643f3b96332727b7be14, type: 3}
+      value: {fileID: -8345435589167100473, guid: 0b6aba1bfea614e2f88a0c4d082ec9a2, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,7 +44,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -22816798605376139, guid: 70ab665535c1643f3b96332727b7be14, type: 3}
+    - {fileID: -8345435589167100473, guid: 0b6aba1bfea614e2f88a0c4d082ec9a2, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
