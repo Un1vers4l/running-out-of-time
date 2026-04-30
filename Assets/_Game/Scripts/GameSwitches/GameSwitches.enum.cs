@@ -6,16 +6,16 @@ public enum GameSwitches
   InterrogatedCleaningCultistOnce,
   Finished_Interrogation,
 
-  // Party cultist line
-  TalkedTo_PartyCultist,
-  GotItem_Beer,
-  Resolved_PartyCultist,
-
   // Cat cultist line
   TalkedTo_CatCultist,
   ReleasedCat,
   CatRanAway,
   Resolved_CatCultist,
+
+  // Party cultist line
+  TalkedTo_PartyCultist,
+  GotItem_Beer,
+  Resolved_PartyCultist,
 
   // Shop Assistant line
   TalkedTo_ShopAssistant,
