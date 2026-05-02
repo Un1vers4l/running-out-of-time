@@ -8,6 +8,9 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     [Header("Input References")]
     public InputActionReference moveAction;
+    [Header("Audio")]
+    [SerializeField] private AudioClip walkingSound;
+    [SerializeField] private AudioSource audioSource;
 
     private Rigidbody2D _rigidBody;
     private Animator _animator;
@@ -61,15 +64,33 @@ public class PlayerMovement : MonoBehaviour
         if (_moveVector == Vector2.zero)
         {
             _animator.SetBool(_walkingAnimationTriggerName, false);
+            StopWalkingSound();
             return;
         }
 
         _animator.SetBool(_walkingAnimationTriggerName, true);
+        PlayWalkingSound();
 
         if (_moveVector.x != 0)
         {
             _spriteRenderer.flipX = _moveVector.x < 0;
         }
+    }
+
+    private void PlayWalkingSound()
+    {
+        if (walkingSound == null || audioSource == null) return;
+        if (audioSource.isPlaying) return;
+
+        audioSource.clip = walkingSound;
+        audioSource.loop = true;
+        audioSource.Play();
+    }
+
+    private void StopWalkingSound()
+    {
+        if (audioSource == null) return;
+        audioSource.Stop();
     }
 
     private void EnableMovement()

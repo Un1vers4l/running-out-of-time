@@ -18,6 +18,8 @@ public class DialogueManager : MonoBehaviour
 
     [Header("Typewriter")]
     [SerializeField] private float charactersPerSecond = 40f;
+    [SerializeField] private AudioClip typingSound;
+    [SerializeField] private AudioSource audioSource;
     public InputActionReference dialogueAdvanceAction;
     public static event Action OnDialogueStarted;
     public static event Action OnDialogueEnded;
@@ -107,6 +109,8 @@ public class DialogueManager : MonoBehaviour
         for (int i = 0; i <= totalChars; i++)
         {
             DialogueText.maxVisibleCharacters = i;
+            if (typingSound != null && audioSource != null)
+                audioSource.PlayOneShot(typingSound);
             yield return new WaitForSeconds(delay);
         }
 
